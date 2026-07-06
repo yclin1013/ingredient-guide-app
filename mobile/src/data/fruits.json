@@ -1,0 +1,515 @@
+[
+  {
+    "id": "mango",
+    "name": "芒果",
+    "category": "水果",
+    "characteristics": "台灣夏季代表水果，品種眾多，各品種產季與挑選重點略有差異。",
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 53 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "常溫催熟至有香氣、微軟後移入冷藏，可放 3–5 天；切開後盡快食用完畢。",
+    "variants": [
+      {
+        "name": "愛文",
+        "months": [5, 6, 7, 8],
+        "appearance": "長橢圓形，果皮紅綠交錯。",
+        "selectionTips": [
+          "果皮飽滿有光澤",
+          "聞起來有淡淡果香",
+          "蒂頭處微軟代表已熟"
+        ]
+      },
+      {
+        "name": "金煌",
+        "months": [6, 7, 8],
+        "appearance": "體型較大，果皮金黃帶紅暈。",
+        "selectionTips": [
+          "選果皮金黃色澤均勻者",
+          "按壓蒂頭處微軟即可食用",
+          "避免有黑斑或裂痕"
+        ]
+      },
+      {
+        "name": "玉文",
+        "months": [7, 8, 9],
+        "appearance": "果形較細長，果皮偏綠黃色。",
+        "selectionTips": [
+          "果皮轉黃即代表成熟",
+          "香氣濃郁者風味較佳",
+          "蒂頭無滲液為佳"
+        ]
+      }
+    ],
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：芒果平均值(新興種)＋芒果平均值(西洋種) 均值"
+      },
+      "selectionTips": {
+        "level": "unverified"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "guava",
+    "name": "芭樂",
+    "category": "水果",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣全年皆有生產，秋冬產期口感更脆甜。",
+    "selectionTips": [
+      "表皮翠綠有光澤，無黑斑",
+      "拿起來扎實有重量",
+      "果臍開口微開為佳，太開過熟、太密酸澀"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 40 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量極高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "含量高"
+      }
+    ],
+    "storage": "常溫可放 2–3 天，冷藏可延長至 5–7 天。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：芭樂平均值(白肉)（整合編號 D15002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、農業部知識入口網、早安健康、聯合報（引農糧署）等獨立來源一致；原「蒂頭新鮮」描述已修正為「果臍開口」"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "banana",
+    "name": "香蕉",
+    "category": "水果",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣全年皆有生產的家常水果，口感綿密香甜，是高鉀低鈉的代表性水果之一。",
+    "selectionTips": [
+      "果皮轉色均勻，沒有大面積擦壓傷痕跡",
+      "表皮生理成熟斑點（梅花點）少者，可存放較久",
+      "想立即食用可選全黃帶些許褐色斑紋者，風味最佳"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 85 kcal/100g"
+      },
+      {
+        "label": "鉀",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "以保鮮膜包覆整支香蕉，放冰箱蔬果層可保持約 1 週果皮顏色與風味不變。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：北蕉平均值（整合編號 D08001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "104職場力（引農委會）、聯合報元氣網、健康醫療網、早安健康等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "papaya",
+    "name": "木瓜",
+    "category": "水果",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣全年皆有生產，果肉細緻香甜，夏秋兩季風味最濃郁，是營養價值很高的家常水果。",
+    "selectionTips": [
+      "外皮綠中帶黃、轉色均勻，果皮平滑細緻",
+      "外皮帶均勻果粉者新鮮度較高",
+      "瓜體有重量感、表皮清淨有光澤",
+      "按壓蒂頭周圍，感覺變軟即代表可以食用"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 38 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量高"
+      },
+      {
+        "label": "維生素A",
+        "value": "尚可"
+      }
+    ],
+    "storage": "未熟者可常溫放置催熟；熟果建議冷藏，約可放 3–5 天。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：木瓜平均值（整合編號 D02001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "台南區農業改良場、上下游新聞、食力foodnext、聯合報元氣網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "pineapple",
+    "name": "鳳梨",
+    "category": "水果",
+    "months": [3, 4, 5, 6, 7, 8],
+    "characteristics": "台灣代表性水果之一，果肉酸甜多汁，金鑽鳳梨是最常見的市售品種，夏季是主要產季。",
+    "selectionTips": [
+      "果實結實飽滿呈短圓筒狀，果皮無裂縫及碰傷",
+      "果目大小均勻、排列整齊",
+      "果梗切口小且新鮮",
+      "手指輕彈聲音清脆響亮（鼓聲果）較耐存放，聲音悶沉則建議儘速食用"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 53 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "常溫可放 2–3 天，冷藏可延長保存；切開後需冷藏並盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：鳳梨平均值(雜交種)（整合編號 D11002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、農業部知識入口網、農傳媒、經濟日報等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "watermelon",
+    "name": "西瓜",
+    "category": "水果",
+    "months": [4, 5, 6, 7, 8],
+    "characteristics": "夏季消暑代表水果，果肉多汁清甜，水分含量高，是台灣夏天最常見的水果之一。",
+    "selectionTips": [
+      "頭尾大小勻稱，瓜紋清晰排列整齊",
+      "瓜蒂彎曲者通常水分養分較足",
+      "瓜臍圓圈小而窄、外型完整，按壓有彈性代表已成熟",
+      "輕拍聽聲音，沉悶「嘭嘭」聲通常較多汁成熟"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 31 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "整顆常溫可放 1 週；切開後需冷藏並盡快食用完畢，建議 2–3 天內吃完。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：西瓜平均值(紅肉小瓜)＋西瓜平均值(黃肉小瓜) 均值"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、ETtoday、大紀元、康健雜誌、聯合報元氣網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "orange",
+    "name": "柳丁",
+    "category": "水果",
+    "months": [11, 12, 1, 2],
+    "characteristics": "台灣冬季代表水果，酸甜多汁，又稱柳橙，是柑橘家族中最常見的品種之一。",
+    "selectionTips": [
+      "果實呈球形或橢圓形，用手輕握有彈性",
+      "帶蒂頭者較新鮮，容易出現軟心的多半已放較久",
+      "果皮顏色轉黃、飽滿不軟爛，有光澤或果粉為佳",
+      "拿起來有重量感，代表水分與甜度較足"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 44 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "常溫通風處可放 2–3 週，不需先水洗；已剝皮則建議冷藏並盡快食用。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：柳橙（整合編號 D3600101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由健康網（引農糧署）、食譜自由配、聯合報元氣網、早安健康、良醫健康網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "grape",
+    "name": "葡萄",
+    "category": "水果",
+    "months": [7, 8, 12, 1, 2],
+    "characteristics": "巨峰葡萄是台灣最常見的市售品種，果肉柔嫩多汁、味甜微酸，一年可有夏冬兩次產季。",
+    "selectionTips": [
+      "整串顏色均一，代表成熟度一致",
+      "果實表面有白霜，是新鮮度的標誌",
+      "果柄青綠飽滿，沒有脫水乾枯的現象",
+      "果實沒有明顯破損或掉粒"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 64 kcal/100g"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放 1 週左右；建議不清洗直接冷藏，食用前再沖洗。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：巨峰葡萄（整合編號 D1700201）"
+      },
+      "selectionTips": {
+        "level": "unverified"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "wax-apple",
+    "name": "蓮霧",
+    "category": "水果",
+    "months": [12, 1, 2, 3],
+    "characteristics": "台灣特色水果，果肉清脆多汁、水分含量極高，冬季是主要產季，黑珍珠、黑金剛是常見品種。",
+    "selectionTips": [
+      "果色深紅潔淨、果皮有光澤，沒有斑點或粉狀物（黑透紅）",
+      "果臍開展、沒有碰傷（肚臍開）",
+      "果實飽滿有重量感，放倒時平穩不易倒（粒頭飽）",
+      "果皮細緻光滑（皮幼幼）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 39 kcal/100g"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放 1 週左右；不耐擠壓，建議單層擺放避免碰傷。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：蓮霧平均值(粉紅色種)（整合編號 D18001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、台南區農業改良場、農業試驗所、早安健康等獨立來源一致；查證平台MyGoPen指出「蒂頭粉紅色圈代表甜度」的坊間說法並非唯一判準，本筆已依農糧署官方4口訣（黑透紅／肚臍開／皮幼幼／粒頭飽）撰寫，未採用該坊間說法"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "dragon-fruit",
+    "name": "火龍果",
+    "category": "水果",
+    "months": [5, 6, 7, 8, 9, 10, 11],
+    "characteristics": "台灣夏秋盛產的仙人掌科水果，果肉清甜多汁，紅肉、白肉品種都常見於市場。",
+    "selectionTips": [
+      "外形渾圓飽滿、鱗片反捲",
+      "果皮轉色均勻、色澤鮮豔（轉紅達一半以上）",
+      "果萼端（縮口處）完全轉色且微皺，代表已完全成熟",
+      "拿起來有重量感，代表汁多果肉豐滿"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 50 kcal/100g"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放 1–2 週；建議整顆保存，切開後盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：紅龍果(紅肉)（整合編號 D0700201）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "食譜自由配（引農委會）、Newtalk新聞、蔬福生活、聯合報元氣網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "passion-fruit",
+    "name": "百香果",
+    "category": "水果",
+    "months": [3, 4, 5, 6, 7, 8, 9, 10],
+    "characteristics": "香氣濃郁、酸甜可口的台灣常見水果，可直接食用果肉也常用來調製飲品，台農一號是常見品種。",
+    "selectionTips": [
+      "拿起來沉甸甸、有重量感，代表果汁量較多",
+      "搖晃時內部沒有明顯晃動聲",
+      "果梗略乾縮呈淺褐色，是最佳賞味狀態",
+      "果皮光滑無擦傷，顏色越紫（或金黃）越成熟"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 102 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "含量高"
+      }
+    ],
+    "storage": "常溫可放 1 週左右；表皮開始皺縮代表更加成熟香甜，冷藏可延長保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：百香果(台農一號)（整合編號 D0400101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、高雄區農業改良場（經食力foodnext引用）、中央社CNA等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "strawberry",
+    "name": "草莓",
+    "category": "水果",
+    "months": [11, 12, 1, 2, 3, 4],
+    "characteristics": "冬季限定的人氣水果，苗栗大湖是台灣最知名產地，豐香（桃園一號）是常見品種，香氣濃郁、甜度高。",
+    "selectionTips": [
+      "蒂頭翠綠新鮮，沒有乾枯捲曲",
+      "顏色越紅、色澤越均勻代表越成熟香甜",
+      "表面顆粒（真正的果實）呈金黃色，代表成熟度剛好",
+      "大小適中即可，不必迷信越大顆越甜"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 39 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "不耐久放，建議 2–3 天內食用完畢；先剔除受傷軟爛果實，冷藏前不要先清洗。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：草莓（整合編號 D1400101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "優活健康網（引農糧署）、聯合報元氣網、義美生機等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  }
+]

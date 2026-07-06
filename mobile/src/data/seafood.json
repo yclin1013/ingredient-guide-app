@@ -1,0 +1,546 @@
+[
+  {
+    "id": "squid",
+    "name": "透抽",
+    "category": "海鮮",
+    "months": [4, 5, 6, 7, 8, 9],
+    "characteristics": "肉質Q彈細緻，適合快炒、汆燙或做一夜干。",
+    "selectionTips": [
+      "眼睛清澈透亮，不混濁",
+      "身體摸起來有彈性、緊實",
+      "表皮色澤自然有光澤，摸起來帶自然黏滑感屬正常",
+      "聞起來是淡淡海水味，無腥臭"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 72 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "Omega-3",
+        "value": "含量高"
+      }
+    ],
+    "storage": "當天食用風味最佳；需冷藏可放 1 天，冷凍可放 1–2 週。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：台灣鎖管（俗稱透抽/小卷/中卷，依大小分級）（整合編號 J3500501）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "梓官區漁會（fishermart.com.tw）、食譜自由配、36life等獨立來源一致；原「無黏液感」描述已修正為「帶自然黏滑感屬正常」"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "white-shrimp",
+    "name": "白蝦",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣養殖為主，全年皆可購得，肉質細嫩帶自然甜味。",
+    "selectionTips": [
+      "蝦殼透明有光澤，緊貼蝦身",
+      "頭尾完整不脫落",
+      "聞起來無異味"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 99 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏當天食用為佳，或急速冷凍保存約 2 週。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：白對蝦平均值（整合編號 J21009）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部水產試驗所（tfrin.gov.tw）、食譜自由配等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "milkfish",
+    "name": "虱目魚",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣西南沿海重要的養殖魚種，全魚可食、風味濃郁，魚肚部位油脂豐富，是台南、嘉義一帶的代表性食材。",
+    "selectionTips": [
+      "魚眼有透明薄膜且飽滿明亮",
+      "魚鰓呈鮮紅色，暗紅或帶腥味代表不新鮮",
+      "魚鱗色澤明亮，帶銀色光澤",
+      "肉質有彈性，手壓魚肚不會有黏液排出"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 179 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "DHA",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏當天或隔天食用完畢；分切好的魚肚、魚皮建議分裝冷凍，避免油脂氧化。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：虱目魚平均值(去皮)（整合編號 J04010）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、食譜自由配、聯合報元氣網、早安健康等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "tilapia",
+    "name": "台灣鯛",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "由吳郭魚改良而來的優質化品種，肉質細緻少刺，全年皆有養殖供應，超市常見已分切冷凍魚片。",
+    "selectionTips": [
+      "整尾購買時魚眼、魚鰓、魚鱗判斷方式與一般鮮魚相同（明亮有光澤）",
+      "冷凍魚片色澤應均勻呈淡粉色，混雜咖啡色代表品質不佳",
+      "認明產銷履歷或優良認證標章，來源較有保障"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 110 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "DHA",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷凍魚片建議保持冷凍狀態保存，退冰後盡快烹調食用，避免反覆解凍。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：台灣鯛魚片(生)（整合編號 J0412002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、農業部知識入口網、農傳媒、TVBS健康等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "mackerel",
+    "name": "鯖魚",
+    "category": "海鮮",
+    "months": [10, 11, 12, 1, 2],
+    "characteristics": "俗稱花飛、青飛，是台灣近海秋冬常見的漁獲，油脂豐富、風味濃郁，適合煎烤。",
+    "selectionTips": [
+      "魚身光澤越亮越新鮮，腹部越白越好",
+      "魚眼清澈明亮，聞起來有海洋清新味而非腥臭味",
+      "魚腹摸起來有彈性，按下去能迅速恢復原狀",
+      "魚腹帶有金黃色痕紋者為佳"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 417 kcal/100g（油脂含量高）"
+      },
+      {
+        "label": "Omega-3",
+        "value": "含量極高"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "買回家若不立即食用，應立刻冷凍保存，避免油脂氧化變質。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：鯖魚(生)（整合編號 J0414701）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "梓官區漁會（fishermart.com.tw）、食譜自由配、聯合報元氣網、大紀元等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "hairtail",
+    "name": "白帶魚",
+    "category": "海鮮",
+    "months": [9, 10, 11, 12],
+    "characteristics": "體型狹長如帶，肉質細嫩少細刺，是台灣近海常見的漁獲，適合煎、炸、紅燒。",
+    "selectionTips": [
+      "銀色魚皮光澤越亮越新鮮，避免挑選附著黃色物質者（脂肪氧化）",
+      "魚眼透亮不凹陷，魚鰓顏色越鮮紅越新鮮",
+      "魚肉具彈性而緊實，切面顏色越鮮紅越新鮮",
+      "選中段部位，肉質厚實、油脂較豐富"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 102 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "DHA",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏建議當天食用；需冷凍保存可放 1–2 週，烹調前才解凍。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：白帶魚（整合編號 J0413801）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網、優活健康網（UHO）、鮮潮（freshhi）等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "seabass",
+    "name": "鱸魚",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣重要的養殖魚種，肉質細嫩、刺少，全年皆有供應，是常見的坐月子與病後調養食材。",
+    "selectionTips": [
+      "魚眼飽滿明亮，凹陷代表不新鮮",
+      "魚鱗有光澤、完整滑順",
+      "聞起來無腥味或化學味",
+      "魚腹摸起來不浮腫也不凹陷"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 98 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "DHA",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏建議 1–2 天內食用完畢；分切好的魚肉建議冷凍保存並盡快食用。",
+    "aliases": {
+      "market_name": "鱸魚",
+      "official_name": "日本花鱸（日本真鱸）",
+      "scientific_name": "Lateolabrax japonicus",
+      "note": "台灣市場俗稱七星鱸、花鱸、青鱸、鱸魚，皆對應同一物種"
+    },
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：日本花鱸平均值（整合編號 J04044）；經查證，市場俗名「鱸魚」對應學名 Lateolabrax japonicus，即食藥署資料庫樣品「日本花鱸」"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "梓官區漁會（fishermart.com.tw）、大紀元、食譜自由配等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "clam",
+    "name": "文蛤",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣全年皆有養殖供應，雲林、嘉義沿海是主要產地，煮湯或快炒都很常見，殼開即代表煮熟。",
+    "selectionTips": [
+      "外殼緊閉，輕敲時會快速閉合代表新鮮",
+      "殼已打開且無法閉合，可能已死亡，不建議食用",
+      "吐沙前用約 3% 濃度鹽水（500cc 水加 1 大匙鹽），水溫 25°C 左右效果較好",
+      "吐沙時平鋪不堆疊，並加蓋製造陰暗環境"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 37 kcal/100g"
+      },
+      {
+        "label": "鐵",
+        "value": "含量高"
+      },
+      {
+        "label": "鈣",
+        "value": "含量高"
+      }
+    ],
+    "storage": "以濕布覆蓋冷藏，可放 1–2 天；建議購買後盡快吐沙並食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：文蛤（整合編號 J3101001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "良醫健康網（businessweekly）、農業兒童網（kids.moa.gov.tw）、厚生市集等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "clam-freshwater",
+    "name": "蜆仔",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣淡水養殖代表性貝類，濁水溪流域是主要產地，常用來煮湯或做蜆精，味道清甜。",
+    "selectionTips": [
+      "色澤澄黃、蜆肉飽滿，互碰輕敲聲音清脆扎實，空殼聲代表不新鮮",
+      "靜置水中會伸出斧足、偶爾噴出小水柱，輕觸外殼會緊閉",
+      "加熱後能快速開口，肉色潔白、湯汁清澈；煮後不開口或有異味則不要食用"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 51 kcal/100g"
+      },
+      {
+        "label": "鐵",
+        "value": "含量高"
+      },
+      {
+        "label": "鈣",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放 1–2 天；建議先吐沙後再冷藏，盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：台灣蜆（整合編號 J3100801）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、農業部食農教育資訊整合平臺（fae.moa.gov.tw）、上下游新聞等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "oyster",
+    "name": "牡蠣",
+    "category": "海鮮",
+    "subcategory": "蚵仔",
+    "months": [9, 10, 11, 12, 1, 2],
+    "characteristics": "台灣西南沿海重要的養殖貝類，俗稱蚵仔，有「海中牛奶」之稱，秋冬季節俗諺「九月蚵，肥滋滋」。",
+    "selectionTips": [
+      "無腥味，身體完整有彈性，肉質有光澤",
+      "貝殼肌越透明、蚵葉顏色越黑代表越新鮮",
+      "避免發綠、泛黃或泡水過久呈白色的個體",
+      "選購袋裝蚵仔時，水比蚵仔多就不要買，代表反覆退冰或泡水過久"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 50–60 kcal/100g（依品種略有差異，詳見下方名稱確認說明）"
+      },
+      {
+        "label": "鋅",
+        "value": "含量高"
+      },
+      {
+        "label": "鐵",
+        "value": "含量高"
+      }
+    ],
+    "storage": "袋裝蚵仔不拆袋，封緊袋口冷藏可放 4–5 天；清洗後應盡快食用完畢。",
+    "nameResolution": {
+      "market_name": "牡蠣（蚵仔）",
+      "status": "待確認",
+      "note": "查證顯示台灣主要養殖蚵仔品種為葡萄牙牡蠣（學名 Crassostrea angulata）與囊牡蠣（石蚵），但食藥署資料庫僅有「真牡蠣」樣本，兩者是否為同一物種未能確認，故營養欄位暫不採用該樣本數值",
+      "candidates": [
+        {
+          "db_sample": "真牡蠣平均值（整合編號 J31002）",
+          "calories": "約 54 kcal/100g",
+          "note": "資料庫僅有的牡蠣樣本，但學名與台灣主要養殖種是否一致待確認"
+        },
+        {
+          "db_sample": "帶殼真牡蠣(生蠔)（整合編號 J3100202）",
+          "calories": "約 59 kcal/100g",
+          "note": "同一物種的帶殼生蠔樣本"
+        },
+        {
+          "db_sample": "黑齒牡蠣（整合編號 J3100301）",
+          "calories": "約 55 kcal/100g",
+          "note": "另一牡蠣品種，與台灣常見蚵仔品種對應關係亦待確認"
+        }
+      ]
+    },
+    "verification": {
+      "nutrition": {
+        "level": "unverified",
+        "source": "名稱待確認，見 nameResolution 欄位；不採用網路查詢的營養數據替代"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "康健雜誌、農傳媒、食譜自由配、三立新聞網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "cuttlefish",
+    "name": "花枝",
+    "category": "海鮮",
+    "months": [10, 11, 12, 1, 2, 3],
+    "characteristics": "肉身是烏賊科中最厚實的一種，口感Q彈紮實，台灣近海秋冬漁獲較常見，適合快炒、汆燙或做三杯料理。",
+    "selectionTips": [
+      "聞起來無異味，若有濃重油耗味代表已放置過久",
+      "肉質緊實有彈性，摸起來飽滿；500–600 克大小較適中，過大隻肉質偏老",
+      "新鮮花枝建議保留外皮，口感較Q彈，去皮通常是不新鮮才會的處理方式"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 53–61 kcal/100g（依品種略有差異，詳見下方名稱確認說明）"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏建議當天食用；冷凍可放 1–2 週，退冰後盡快烹調。",
+    "nameResolution": {
+      "market_name": "花枝",
+      "status": "待確認",
+      "note": "查證顯示台灣近海常見烏賊有 4 種：虎斑烏賊、擬目烏賊、真烏賊、日本無針烏賊，「花枝」在市場上是這幾種烏賊的統稱，未必指單一物種。食藥署資料庫僅有「真烏賊」樣本，是否為市售花枝的主要來源物種待確認",
+      "candidates": [
+        {
+          "db_sample": "真烏賊平均值（整合編號 J35001）",
+          "calories": "約 57 kcal/100g",
+          "note": "資料庫僅有的烏賊樣本，是候選之一"
+        },
+        {
+          "note": "虎斑烏賊、擬目烏賊、日本無針烏賊：食藥署資料庫查無對應樣本"
+        }
+      ]
+    },
+    "verification": {
+      "nutrition": {
+        "level": "unverified",
+        "source": "名稱待確認，見 nameResolution 欄位；不採用網路查詢的營養數據替代"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "梓官區漁會（fishermart.com.tw）、食譜自由配等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "grouper",
+    "name": "石斑魚",
+    "category": "海鮮",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣重要的養殖魚種，肉質細緻，市場常見的「石斑」其實涵蓋多個品種，龍虎斑、龍膽石斑、青斑合計占養殖總量九成三。",
+    "selectionTips": [
+      "魚眼炯炯有神，不混濁或呈灰白色",
+      "魚鰓明亮且帶點透明感的紅色",
+      "魚身摸起來有彈性，魚鱗發亮緊緻不易脫落",
+      "聞起來無氨水味，若有代表已腐壞"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 90–155 kcal/100g（依品種差異大，詳見下方名稱確認說明）"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏建議 1–2 天內食用完畢；若買回不立即烹煮，先不清洗，整條冷藏保存。",
+    "nameResolution": {
+      "market_name": "石斑魚",
+      "status": "待確認",
+      "note": "台灣養殖石斑主要為龍虎斑（珍珠龍膽）、龍膽石斑（鞍帶石斑魚）、青斑（點帶石斑）三種，合計占養殖總量約九成三，但市場「石斑魚」標示通常不會註明確切品種",
+      "candidates": [
+        {
+          "name": "龍虎斑（珍珠龍膽）",
+          "db_sample": "龍虎石斑魚（整合編號 J0405102）",
+          "calories": "約 122 kcal/100g",
+          "note": "近年台灣養殖占比最高的品種"
+        },
+        {
+          "name": "龍膽石斑（鞍帶石斑魚）",
+          "db_sample": "鞍帶石斑魚片（整合編號 J0405501）",
+          "calories": "約 155 kcal/100g",
+          "note": "體型最大的石斑品種"
+        },
+        {
+          "name": "青斑（點帶石斑，資料庫可能對應「斑帶石斑魚」但名稱是否完全一致待確認）",
+          "db_sample": "斑帶石斑魚（整合編號 J0405101）",
+          "calories": "約 90 kcal/100g"
+        }
+      ]
+    },
+    "verification": {
+      "nutrition": {
+        "level": "unverified",
+        "source": "名稱待確認，見 nameResolution 欄位；不採用網路查詢的營養數據替代"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "康健雜誌、農業部食農教育資訊整合平臺（fae.moa.gov.tw）、上下游新聞、大紀元、梓官區漁會、微笑台灣（天下雜誌）等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  }
+]

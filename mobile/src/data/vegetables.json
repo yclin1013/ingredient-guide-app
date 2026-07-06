@@ -1,0 +1,726 @@
+[
+  {
+    "id": "cabbage",
+    "name": "高麗菜",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "葉球緊實，層層包覆，口感清脆微甜，是台灣家常菜最常見的蔬菜之一。",
+    "selectionTips": [
+      "葉球拿起來有沉重感，代表水分充足",
+      "外葉翠綠無枯黃，也沒有蟲咬破洞",
+      "葉球壓起來緊實不鬆軟",
+      "切口處新鮮濕潤，避免發黑乾裂"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 23 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "保鮮膜包裹後冷藏，可放 7–10 天；切開處建議先包好，避免切口水分流失變黑。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：甘藍平均值（整合編號 E30001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署（經自由健康網、NOWnews、三立新聞網等多家獨立媒體報導一致）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "sweet-potato",
+    "name": "地瓜",
+    "category": "蔬菜",
+    "months": [9, 10, 11, 12, 1],
+    "characteristics": "根莖類，口感綿密偏甜，適合蒸烤或煮湯，秋冬是盛產期。",
+    "selectionTips": [
+      "表皮光滑無破損、無黑斑",
+      "拿起來有重量感，代表水分足夠",
+      "兩端不軟爛、沒有發芽"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 114 kcal/100g"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "含量高"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      }
+    ],
+    "storage": "放陰涼通風處保存，避免冷藏（低溫容易劣化），約可放 2–3 週。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：紅肉甘藷（整合編號 B0400401）"
+      },
+      "selectionTips": {
+        "level": "unverified"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "tomato",
+    "name": "番茄",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣全年皆可買到，果肉多汁酸甜，可生食也可入菜，常見品種有牛番茄、黑柿番茄、聖女小番茄等，冬春季節風味通常較濃郁；紅色果皮富含茄紅素，是番茄的招牌營養素之一。",
+    "selectionTips": [
+      "蒂頭翠綠新鮮，沒有乾枯脫落",
+      "果皮飽滿有光澤，按壓有彈性不軟爛",
+      "自然色澤紅中帶黃即可，過度均勻鮮紅可能是催熟",
+      "表皮無裂痕或碰傷"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 19 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "尚可"
+      },
+      {
+        "label": "維生素A",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "未熟透可常溫放置催熟，熟透後冷藏可放 5–7 天；避免與其他水果堆疊擠壓。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：大番茄平均值(紅色系)（整合編號 E74001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "秀美派、NOWnews、今周刊等獨立媒體挑選建議一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "scallion",
+    "name": "青蔥",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣重要的辛香蔬菜，以宜蘭三星蔥最富盛名，全年皆有生產，冬季氣溫較低時蔥白會更粗壯、風味更佳。",
+    "selectionTips": [
+      "蔥白粗壯結實，摸起來不軟爛",
+      "蔥綠鮮翠挺立，沒有枯黃倒伏",
+      "根部沒有腐爛發黑",
+      "聞起來蔥香明顯，沒有異味"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 31 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "尚可"
+      },
+      {
+        "label": "維生素C",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "用紙巾包裹根部後冷藏，可放 1–2 週；用不完可切段冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：青蔥平均值（整合編號 E23001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、上下游新聞、自由電子報等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "daikon",
+    "name": "白蘿蔔",
+    "category": "蔬菜",
+    "months": [10, 11, 12, 1, 2, 3],
+    "characteristics": "根莖類蔬菜，生食清脆微辛，煮熟後轉為清甜，是冬季進補與煮湯的常見食材，秋冬是主要產季。",
+    "selectionTips": [
+      "表皮光滑緊實，沒有裂痕或明顯空心跡象",
+      "拿起來有重量感，代表水分充足",
+      "帶葉者葉片翠綠新鮮",
+      "鬚根少而分布均勻，鬚根過多口感較柴"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 18 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "帶葉會加速水分流失，建議先切除葉子；整根用報紙包好冷藏，可放 1–2 週。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：白蘿蔔平均值（整合編號 E04001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、農糧署（經自由健康網/NOWnews引用）等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "water-spinach",
+    "name": "空心菜",
+    "category": "蔬菜",
+    "months": [4, 5, 6, 7, 8, 9, 10],
+    "characteristics": "俗稱蕹菜，莖部中空、口感清脆，生長速度快、耐熱，是夏季餐桌常見的葉菜之一。",
+    "selectionTips": [
+      "葉片翠綠，沒有枯黃或大量蟲咬破洞",
+      "莖部新鮮翠綠、中空有彈性",
+      "折斷莖部斷面清脆多汁",
+      "葉柄基部沒有黏液或腐爛"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 19 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "鐵",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "含量高"
+      }
+    ],
+    "storage": "不耐久放，建議 2–3 天內食用完畢；冷藏前先用紙巾包裹葉片，減少水氣悶爛。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：蕹菜(土植) 1/4/7/10月取樣平均"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、NOWnews、風傳媒（storm.mg）等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "bok-choy",
+    "name": "青江菜",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "小型十字花科蔬菜，梗部肥厚清脆、葉片軟嫩，生長週期短、全年皆可種植，秋冬品質更穩定。",
+    "selectionTips": [
+      "葉片翠綠有光澤，沒有黃化",
+      "梗部肥厚結實，按壓不軟爛",
+      "葉柄基部沒有發黑或腐爛",
+      "整株拿起來挺立新鮮，不軟塌"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 13 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量高"
+      },
+      {
+        "label": "鈣",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏可放 3–5 天；建議直立擺放或用紙巾包裹，避免葉片因悶濕腐爛。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：青江菜(土植) 1/3/4/7/10月取樣平均"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、TVBS健康、食譜自由配、康健雜誌等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "spinach",
+    "name": "菠菜",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "葉片柔嫩、鐵質與維生素A含量高，是台灣家常湯品與快炒常見的葉菜，秋冬氣候涼爽時風味更佳。",
+    "selectionTips": [
+      "葉片翠綠肥厚，沒有黃斑或蟲孔",
+      "莖部挺直飽滿，沒有太多摺痕或損傷",
+      "根部呈紫紅色代表新鮮，若已發黑代表放太久"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 18 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "鐵",
+        "value": "含量高"
+      },
+      {
+        "label": "鈣",
+        "value": "尚可"
+      }
+    ],
+    "storage": "不耐久放，建議 2–3 天內食用完畢；冷藏前用紙巾包裹根部，減少水氣悶爛。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：菠菜（整合編號 E5000101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "三立新聞網（SETN）、食譜自由配、TVBS新聞網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "chinese-chives",
+    "name": "韭菜",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "香氣濃郁的辛香葉菜，全年皆可栽培，春季嫩韭風味較細緻，是台菜與水餃餡料的常見食材。",
+    "selectionTips": [
+      "葉肉肥厚，葉色鮮綠有光澤",
+      "沒有爛葉、折葉、黃葉或斑點",
+      "尾端不枯黃、拉直不下垂",
+      "根部切口整齊，沒有腐爛跡象"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 27 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "用紙巾包裹後冷藏，可放 3–5 天；不耐久放，建議盡快食用。",
+    "verification": {
+      "nutrition": {
+        "level": "unverified"
+      },
+      "selectionTips": {
+        "level": "unverified"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "garland-chrysanthemum",
+    "name": "茼蒿",
+    "category": "蔬菜",
+    "months": [10, 11, 12, 1, 2, 3],
+    "characteristics": "氣味清香、口感軟嫩，是冬季火鍋必備的葉菜之一，天氣越冷風味越好。",
+    "selectionTips": [
+      "顏色鮮綠、葉片飽滿不乾扁",
+      "葉片完整不破碎，葉肉肥厚",
+      "沒有水傷或腐爛變黃的情形",
+      "菜梗切口新鮮不發黑"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 16 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "含水量高、不耐久放，建議購買後盡速食用，冷藏可放 2–3 天。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：茼蒿（整合編號 E4600101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "優活健康網（UHO）、聯合新聞網（引菜販說法）等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "loofah",
+    "name": "絲瓜",
+    "category": "蔬菜",
+    "months": [5, 6, 7, 8, 9],
+    "characteristics": "夏季盛產的瓜果類蔬菜，肉質軟嫩多汁、味道清甜，適合煮湯或快炒。",
+    "selectionTips": [
+      "果形上下均勻的圓筒形，避免中間或兩端特別肥大",
+      "外皮翠綠新鮮，顏色暗沉代表採收已久",
+      "花蒂呈黃綠色、未乾燥發褐",
+      "拿起來有重量感，代表水分充足"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 19 kcal/100g"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "常溫可放 2–3 天，冷藏可延長至 5–7 天；建議盡快食用避免纖維老化。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：絲瓜（整合編號 E6800101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、食譜自由配、中時新聞網、TVBS健康2.0等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "cucumber",
+    "name": "小黃瓜",
+    "category": "蔬菜",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "台灣全年皆可買到，夏季產量較多，口感清脆多汁，可生食也可入菜。",
+    "selectionTips": [
+      "瓜體粗細平均、摸起來飽滿硬實有重量感",
+      "外皮青綠帶小刺，代表較為新鮮",
+      "色澤濃綠，黃化表示過熟",
+      "輕壓蒂頭部位不鬆軟"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 14 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放 5–7 天；建議用紙巾包裹減少水氣，避免軟爛發霉。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：胡瓜（整合編號 E6400101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "真食誠現（foodsafetylife）、聯合報元氣網、康健雜誌、TVBS健康、NOWnews（引菜農）等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "eggplant",
+    "name": "茄子",
+    "category": "蔬菜",
+    "months": [5, 6, 7, 8, 9, 10],
+    "characteristics": "台灣常見的長茄品種，果肉綿密，適合紅燒、煎炒或做魚香茄子，夏秋是主要產季。",
+    "selectionTips": [
+      "果型均勻，從頭到尾體型不會變化太多",
+      "顏色紫黑均勻、有光澤，暗沉代表已放較久",
+      "蒂頭與果實連接處的淺色環狀帶（俗稱「眼睛」）明顯，代表新鮮",
+      "蒂頭緊密包覆果肉，不易脫落"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 25 kcal/100g"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放 3–5 天；建議用紙巾或報紙包裹，避免碰撞造成褐化。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：長茄子（整合編號 E7300101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "食譜自由配、大紀元、人民網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "cauliflower",
+    "name": "花椰菜",
+    "category": "蔬菜",
+    "months": [11, 12, 1, 2, 3],
+    "characteristics": "台灣傳統市場最常見的白色花椰菜，花球緊密、口感清甜，冬季是主要產季。",
+    "selectionTips": [
+      "花球白色無汙漬、密合不散開",
+      "花梗呈淡青色至綠色，蕾枝鮮翠",
+      "花球質地細緻，表面沒有嚴重凹凸",
+      "避免花球泛黃或散開，代表已過熟"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 23 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏可放約 1 週；避免事先水洗，水洗後容易發霉腐爛。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：花椰菜（整合編號 E5800101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、ETtoday（引農糧署）、聯合報元氣網、今周刊等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "taiwan-lettuce",
+    "name": "A菜",
+    "category": "蔬菜",
+    "subcategory": "萵苣",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "characteristics": "又稱本島萵苣、台灣萵苣，帶點微苦滋味，是家常炒青菜常見食材，全年皆可買到。",
+    "selectionTips": [
+      "葉片鮮綠完整，肥厚富含水分",
+      "沒有黃化、枯萎或抽苔開花的跡象",
+      "葉片沒有水傷或病蟲害痕跡"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 18 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "含量高"
+      },
+      {
+        "label": "鐵",
+        "value": "尚可"
+      }
+    ],
+    "storage": "先用紙巾或報紙包裹再套塑膠袋冷藏，可放 4–7 天，避免事先清洗。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：本島萵苣(土植) 1/3/4/7/10月取樣平均"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部食農教育資訊整合平臺（fae.moa.gov.tw）、上下游新聞、食譜自由配、聯合報元氣網等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "taro",
+    "name": "芋頭",
+    "category": "蔬菜",
+    "months": [8, 9, 10, 11, 12, 1],
+    "characteristics": "口感綿密帶特殊香氣，是台灣甜點與鹹食都常用的根莖類食材，大甲、甲仙是知名產地。",
+    "selectionTips": [
+      "外型勻稱，拿起來有重量感、觸感硬實",
+      "表皮乾燥光滑，沒有裂痕、軟斑或發霉跡象",
+      "按壓不鬆軟，鬆軟代表已開始纖維化",
+      "聞起來帶淡淡芋香，沒有異味"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 128 kcal/100g"
+      },
+      {
+        "label": "鉀",
+        "value": "含量高"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      }
+    ],
+    "storage": "放陰涼通風處保存，避免潮濕，約可放 1–2 週；已切開者建議冷藏並盡快食用。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：芋頭（整合編號 B0500101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.moa.gov.tw）、自由健康網（引農糧署）、大甲產地直營業者資訊等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "onion",
+    "name": "洋蔥",
+    "category": "蔬菜",
+    "months": [12, 1, 2, 3, 4],
+    "characteristics": "台灣國產洋蔥主要產於恆春、枋山、車城一帶，甜度高、皮薄肉厚，是家常料理常用的辛香蔬菜。",
+    "selectionTips": [
+      "外皮光滑完整，沒有損傷、爛斑或發霉",
+      "頂部按壓結實，若鬆軟凹陷代表已開始腐爛",
+      "尖端沒有發芽跡象",
+      "球體飽滿有重量感，代表水分充足"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 42 kcal/100g"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "尚可"
+      },
+      {
+        "label": "鉀",
+        "value": "尚可"
+      }
+    ],
+    "storage": "放陰涼通風處常溫保存，可放 3–4 週；切開後需冷藏並盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：黃洋蔥（整合編號 E2400301）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "食農教育資訊整合平臺（fae.moa.gov.tw）、關鍵評論網（TNL）、人間福報、NOM Magazine等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  }
+]

@@ -1,0 +1,481 @@
+[
+  {
+    "id": "pork-belly",
+    "name": "豬五花肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "油脂與瘦肉相間，適合滷、炒、烤，是台菜常用部位。",
+    "selectionTips": [
+      "肉色呈自然粉紅，無暗沉變色",
+      "油脂與瘦肉紋理分明",
+      "觸摸有彈性、不黏手",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "較高（油脂多，約 368 kcal/100g）"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏 2–3 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：豬帶皮腹脇肉（整合編號 I0308201）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業部知識入口網（kmweb.coa.gov.tw）、聯合報元氣網、自由電子報等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "chicken-thigh",
+    "name": "土雞腿肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "肉質較一般白肉雞緊實，帶皮風味足，適合滷、烤、炸。",
+    "selectionTips": [
+      "肉色呈自然粉紅，無暗沉變色",
+      "觸摸有彈性、不黏手",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "中等（約 142 kcal/100g）"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：清腿(土雞)（整合編號 I0404201）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "灃食公益飲食文化教育基金會、食力foodnext、聯合報元氣網、早安健康等獨立來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "pork-loin",
+    "name": "豬里肌肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "位於豬背脊部位，脂肪分布均勻、肉質細嫩，是台式炸豬排、蔥爆里肌等家常料理常用的部位。",
+    "selectionTips": [
+      "肉色呈自然粉紅，無暗沉變色",
+      "肉質緊實有彈性，按壓能迅速回彈",
+      "表面沒有過多黏液或異味",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 212 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏 2–3 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：豬大里肌（整合編號 I0304101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、食譜自由配（里肌肉部位特性）等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "ground-pork",
+    "name": "豬絞肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "依部位與肥瘦比例不同，口感也不同；前腿胛心肉肥瘦比約3:7，適合各種家常料理，是台式滷肉、獅子頭等菜色的基礎食材。",
+    "selectionTips": [
+      "肉色呈自然粉紅，無暗沉變色",
+      "肉質緊實，沒有過多血水滲出",
+      "選擇肥瘦比例約 2:8～3:7 者，口感較不乾柴",
+      "注意包裝上的有效期限與冷藏標示；不建議事先清洗，碰水後肉質易鬆散"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 212 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：豬絞肉平均值（整合編號 I03104）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、農業部知識入口網（kmweb.moa.gov.tw）、愛料理生活誌等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "pork-ribs",
+    "name": "豬小排",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "肥瘦相間、帶軟骨，肉質比大排更鮮嫩多汁，適合糖醋、滷製或燉湯。",
+    "selectionTips": [
+      "肉色鮮紅偏粉色，肥肉部分白裡透紅",
+      "彈性十足，表面光滑不黏手，按壓會回彈",
+      "聞起來只有淡淡腥味，沒有其他異味",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 287 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏 2–3 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：豬小排（整合編號 I0304301）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、食譜自由配等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "chicken-breast",
+    "name": "雞胸肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "脂肪含量低、蛋白質含量高，是健身族群常見的食材選擇，容易因烹調不當而口感偏柴。",
+    "selectionTips": [
+      "肉色呈淡紅色，無任何失色現象",
+      "肉體有光澤、富彈性，指腹輕壓可立即彈回",
+      "沒有沾附異常黏液",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 110–165 kcal/100g（依部位與是否含皮而異）"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "含量低"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "unverified",
+        "source": "食藥署資料庫查無生鮮雞胸肉樣本（僅有來自雞腿部位的「雞排」樣本，名稱不對應），不採用網路查詢的營養數據替代"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、食譜自由配等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "chicken-wings",
+    "name": "雞翅",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "帶皮帶骨，油脂集中在皮下，適合滷、烤、炸，是台灣家常菜與夜市小吃的常見食材。",
+    "selectionTips": [
+      "肉色呈自然粉紅，無暗沉變色",
+      "表面沒有黑點，代表沒有細菌感染跡象",
+      "冷凍雞翅表面冰層不宜過厚（避免超過 2 毫米），冰層太厚代表冷凍已久",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 223 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：二節翅(肉雞)（整合編號 I0406102）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "chicken-gizzard",
+    "name": "雞胗",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "雞的內臟部位，口感脆彈、脂肪含量低，是熱炒與滷味常見的食材。",
+    "selectionTips": [
+      "質地厚實，按下去有一定硬度，不會軟爛",
+      "顏色不發黑，帶有光澤亮度",
+      "沒有過重的異味",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 89 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "含量低"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：雞胗(肉雞)（整合編號 I0420401）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "beef-shank",
+    "name": "牛腱",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "牛後腿部位，筋肉相間、口感Q彈，是台灣牛肉麵、滷牛腱最常用的部位，前腱油脂較多、後腱筋膜較多。",
+    "selectionTips": [
+      "肉色呈深紅色，黑褐色代表已放較久",
+      "油花或脂肪部分呈白色或米白色，紋理清晰",
+      "觸摸有彈性，按壓回彈速度快",
+      "選 1–2 台斤大小較適中，過大不易燉爛"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 139 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "鋅",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏 2–3 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：牛後腿腱子心（整合編號 I0108301）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "食譜自由配、Canadian Beef Taiwan（加拿大牛肉推廣機構台灣官網）等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "ground-beef",
+    "name": "牛絞肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "依部位與肥瘦比不同，口感也不同，常用於漢堡排、番茄肉醬、水餃餡料等料理。",
+    "selectionTips": [
+      "肉色不是絕對的新鮮度指標（牛肉接觸空氣氧化後會轉為櫻桃紅色）",
+      "認明包裝上的有效日期，是判斷新鮮度最可靠的方式",
+      "聞聞看、摸摸看，確認沒有異味或黏手感",
+      "依料理需求選擇肥瘦比例，如 2:8 適合大多數家常料理"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 250 kcal/100g（依肥瘦比例而異，此筆待食藥署資料庫有生鮮樣本後再查證）"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏建議 1–2 天內食用完畢（表面積大、細菌易滋生，保存時間比整塊牛肉短），或分裝密封冷凍。",
+    "verification": {
+      "nutrition": {
+        "level": "unverified",
+        "source": "食藥署資料庫查無生鮮牛絞肉樣本，不採用網路查詢的營養數據替代"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、Canadian Beef Taiwan等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "duck-breast",
+    "name": "鴨胸肉",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "以櫻桃鴨（改良品種）最為常見，肉質細嫩、風味較濃郁，適合香煎或做成薑母鴨、鴨賞等料理。",
+    "selectionTips": [
+      "肉色呈自然乳白帶粉紅，切面呈玫瑰色",
+      "肉質緊實有彈性，摸起來不鬆軟",
+      "沒有異味或霉味",
+      "注意包裝上的有效期限與冷藏標示"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 227 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "含量高"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：櫻桃鴨胸肉片（整合編號 I0502101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、農業部知識入口網（kmweb.coa.gov.tw）「鴨肉選購要領」等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  },
+  {
+    "id": "lamb-slices",
+    "name": "羊肉片",
+    "category": "肉品",
+    "seasonNote": "全年供應",
+    "characteristics": "台灣羊肉爐文化常見的火鍋用肉片，國產羊肉多經閹割處理、羶味較淡，肉質結實有彈性。",
+    "selectionTips": [
+      "肉色呈自然紅潤，無暗沉變色",
+      "肉質結實有光澤，肌肉纖維細緻有彈性",
+      "沒有過重的羶味或異味",
+      "注意包裝上的有效期限與冷藏標示，認明國產或標章認證來源較有保障"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 198 kcal/100g"
+      },
+      {
+        "label": "蛋白質",
+        "value": "含量高"
+      },
+      {
+        "label": "脂肪",
+        "value": "尚可"
+      }
+    ],
+    "storage": "冷藏 1–2 天內食用完畢，或分裝密封後冷凍保存。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：綿羊肉切片（整合編號 I0210101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網「跟營養師逛市場／肉品篇：挑新鮮3大原則」、直接跟農夫買（國產羊肉挑選建議）等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    }
+  }
+]

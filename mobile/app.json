@@ -2,6 +2,7 @@
   "expo": {
     "name": "食材圖鑑",
     "slug": "ingredient-guide",
+    "owner": "yclin1013",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +38,16 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "83668831-9c99-4e6a-a9bc-66d280a5f470"
+      }
+    },
+    "runtimeVersion": "54.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/83668831-9c99-4e6a-a9bc-66d280a5f470"
     }
   }
 }

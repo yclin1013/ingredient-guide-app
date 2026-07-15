@@ -7,6 +7,7 @@
 - 食材資料欄位、品種處理邏輯、資料來源、資料驗證分級規則：`docs/DATA_SCHEMA.md`
 - MVP 範圍與開發階段規劃：`docs/ROADMAP.md`
 - 批次新增食材資料的完整流程（品項挑選、避免重複、驗證查證、海鮮名稱對應解析）：`docs/CONTENT_WORKFLOW.md`
+- 根目錄所有雙擊執行的 `.command` 檔案說明（用途、使用時機、前置設定）：`docs/COMMANDS.md`
 
 ## 已驗證的雛形（UI/UX 與互動邏輯參考）
 - `prototypes/ingredient-app-prototype.jsx`：主要 App 流程雛形

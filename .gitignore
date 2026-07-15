@@ -42,3 +42,4 @@ yarn-error.*
 # 可重新生成的驗證報表，不進版控
 docs/VERIFICATION_TODO.md
 docs/verification-todo.html
+docs/WEB_LINKS_CHECK.md

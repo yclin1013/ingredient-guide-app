@@ -47,6 +47,30 @@
 ### 10. 主動提議留存進度、依指令 commit
 每完成一個工作段落（新增一批食材資料、完成一個功能、進行大幅修改之前），主動提議 commit 留存進度，不要等使用者要求。使用者說「存一個進度」時，直接執行 commit，並用簡短、具體的訊息描述這次變更了什麼（不需要再另外確認）。
 
+## 發布更新流程
+
+本專案的內容／程式碼同時存在於三個地方，需要保持同步：
+
+| 目的地 | 用途 | 網址 |
+|---|---|---|
+| GitHub | 原始碼版本控制 | https://github.com/yclin1013/ingredient-guide-app |
+| EAS Update | 手機用 Expo Go App 開啟最新版本 | 見先前提供的固定連結／QR code |
+| Firebase Hosting | 網頁版，可直接分享給任何人用瀏覽器開啟 | https://ingredient-guide-app.web.app |
+
+**統一發布方式**：雙擊根目錄的 `publish-all.command`，會依序完成三邊同步：
+1. `git commit`（若有異動）並推送到 GitHub
+2. 發布新的 EAS Update
+3. 重新輸出網頁版並部署到 Firebase Hosting
+
+每個步驟會各自回報成功或失敗；任一步驟失敗會中止後續步驟並停在該步，方便直接看出卡在哪裡。三個步驟共用同一段更新說明文字（開頭會問一次，直接按 Enter 可用預設的時間戳記）。
+
+若只需要單獨執行某一邊，也可以個別使用：
+- `push-to-github.command`：只推送到 GitHub
+- `publish-update.command`：只發布 EAS Update
+- `deploy-web.command`：只部署網頁版
+
+**給 AI 的提醒**：使用者新增或修改食材資料、或調整畫面功能後，若使用者要求「發布」「上線」「同步」之類的指令，優先建議雙擊 `publish-all.command` 一次完成，不需要逐一引導三個獨立指令，除非使用者明確只想更新其中一邊。
+
 ## 溝通風格
 - 繁體中文、台灣慣用語
 - 白話解釋技術概念，善用比喻，但不過度簡化到失真

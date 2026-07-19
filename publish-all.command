@@ -17,7 +17,7 @@ else
   git add -A
   git commit -m "$MESSAGE"
 fi
-git -c http.version=HTTP/1.1 push -u origin main
+git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push -u origin main
 if [ $? -ne 0 ]; then
   echo "❌ 推送到 GitHub 失敗，已中止後續步驟"
   read -n 1 -s -r -p $'\n按任意鍵關閉這個視窗...'

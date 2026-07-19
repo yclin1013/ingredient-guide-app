@@ -5,5 +5,5 @@ echo "系統會要求輸入 GitHub 帳號與密碼："
 echo "  Username：你的 GitHub 帳號"
 echo "  Password：貼上 Personal Access Token（不是登入密碼）"
 echo ""
-git -c http.version=HTTP/1.1 push -u origin main
+git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push -u origin main
 read -n 1 -s -r -p $'\n推送完成後，按任意鍵關閉這個視窗...'

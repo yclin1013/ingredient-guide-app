@@ -54,13 +54,12 @@ export default function ItemDetail() {
 
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
+      <Pressable onPress={() => router.back()} style={styles.backButtonFixed}>
+        <ChevronLeft size={16} color={MUTED} />
+        <Text style={styles.backText}>返回</Text>
+      </Pressable>
       <ScrollView contentContainerStyle={styles.scroll}>
         <View style={styles.content}>
-          <Pressable onPress={() => router.back()} style={styles.backButton}>
-            <ChevronLeft size={16} color={MUTED} />
-            <Text style={styles.backText}>返回</Text>
-          </Pressable>
-
           <Text style={[styles.categoryLabel, { color: catColor }]}>{item.category}</Text>
           <View style={styles.titleRow}>
             <Text style={styles.title}>{item.name}</Text>
@@ -130,13 +129,26 @@ export default function ItemDetail() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: PAPER },
   scroll: { paddingBottom: 40 },
-  content: { paddingHorizontal: 20, paddingTop: 24 },
+  content: { paddingHorizontal: 20, paddingTop: 56 },
   backButton: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
     marginBottom: 16,
     alignSelf: 'flex-start',
+  },
+  backButtonFixed: {
+    position: 'absolute',
+    top: 12,
+    left: 20,
+    zIndex: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: PAPER,
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 999,
   },
   backText: {
     fontFamily: FONT.sans,

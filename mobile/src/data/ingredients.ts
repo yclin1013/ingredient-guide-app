@@ -13,13 +13,32 @@ export const ITEMS: Ingredient[] = [
   ...(meatsData as Ingredient[]),
 ];
 
+/** 把月份陣列拆成連續區間（月份文字，例如 "12–2月"），12 月接 1 月視為連續 */
+export function getSeasonRanges(months: number[]): string[] {
+  const uniqueSorted = [...new Set(months)].sort((a, b) => a - b);
+  if (uniqueSorted.length === 0) return [];
+  if (uniqueSorted.length >= 12) return ['全年供應'];
+
+  const present = new Set(uniqueSorted);
+  const prevMonth = (m: number) => (m === 1 ? 12 : m - 1);
+  const nextMonth = (m: number) => (m === 12 ? 1 : m + 1);
+
+  const starts = uniqueSorted.filter((m) => !present.has(prevMonth(m)));
+  return starts.map((start) => {
+    let end = start;
+    while (present.has(nextMonth(end)) && nextMonth(end) !== start) {
+      end = nextMonth(end);
+    }
+    return start === end ? `${start}月` : `${start}–${end}月`;
+  });
+}
+
 export function formatSeasonShort(item: Ingredient): string {
   if (item.variants) return '依品種而異';
   if (!item.months) return item.seasonNote || '全年供應';
-  if (item.months.length >= 12) return '全年供應';
-  const min = Math.min(...item.months);
-  const max = Math.max(...item.months);
-  return `${min}–${max} 月當季`;
+  const ranges = getSeasonRanges(item.months);
+  if (ranges.length === 0) return item.seasonNote || '全年供應';
+  return ranges.join('、');
 }
 
 export function isMonthsInSeason(months: number[] | undefined, currentMonth: number): boolean {

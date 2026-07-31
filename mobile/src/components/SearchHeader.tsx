@@ -57,7 +57,8 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     fontFamily: FONT.sans,
-    fontSize: 14,
+    // 至少 16px：小於這個尺寸會觸發 iOS Safari 在 PWA 模式下自動放大畫面
+    fontSize: 16,
     color: INK,
     padding: 0,
   },

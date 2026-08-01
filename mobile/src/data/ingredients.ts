@@ -4,7 +4,7 @@ import seafoodData from './seafood.json';
 import type { Ingredient } from './types';
 import vegetablesData from './vegetables.json';
 
-export type { Category, Ingredient, Nutrient, Variant } from './types';
+export type { Category, HiddenRisk, Ingredient, Nutrient, SpoilageSign, Variant } from './types';
 
 export const ITEMS: Ingredient[] = [
   ...(vegetablesData as Ingredient[]),

@@ -127,8 +127,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "果心軟化屬生理性變化，直接引用農業知識入口網官方問答；表皮病斑擴散建議丟棄一項，是依農業知識入口網對炭疽病病斑持續擴散變大的機制描述推論而來，來源未直接陳述「應丟棄」的建議，故整筆保守列為 secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "果心軟化、顏色偏褐（高溫或低溫環境造成的生理性變化，非病害）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=11024",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "表皮出現黑褐色病斑，且病斑範圍持續擴散變大（炭疽病嚴重感染）",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=9959",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "banana",

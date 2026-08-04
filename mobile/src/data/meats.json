@@ -33,8 +33,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業知識入口網（多位社群會員一致共識，非單一官方或具名專家署名回覆，故列為secondary）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "肉色轉為暗紅、脂肪變黃，觸感黏手，按壓沒有彈性，並散發酸味或異臭",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "chicken-thigh",
@@ -69,8 +81,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "宋明樺營養師（北市營養師公會，經聯合報元氣網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "表面沾附黏液，用水沖洗也無法洗掉，或散發腥臭味",
+        "verdict": "discard",
+        "source_url": "https://health.udn.com/health/story/6036/1605252",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "pork-loin",
@@ -106,8 +130,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業知識入口網（多位社群會員一致共識，非單一官方或具名專家署名回覆，故列為secondary）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "肉色轉為暗紅、脂肪變黃，觸感黏手，按壓沒有彈性，並散發酸味或異臭",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "ground-pork",
@@ -147,8 +183,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業知識入口網（多位社群會員一致共識，非單一官方或具名專家署名回覆，故列為secondary）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "肉色轉為暗紅、脂肪變黃，觸感黏手，按壓沒有彈性，並散發酸味或異臭",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "pork-ribs",
@@ -188,8 +236,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業知識入口網（多位社群會員一致共識，非單一官方或具名專家署名回覆，故列為secondary）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "肉色轉為暗紅、脂肪變黃，觸感黏手，按壓沒有彈性，並散發酸味或異臭",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "chicken-breast",
@@ -229,8 +289,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "宋明樺營養師（北市營養師公會，經聯合報元氣網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "表面沾附黏液，用水沖洗也無法洗掉，或散發腥臭味",
+        "verdict": "discard",
+        "source_url": "https://health.udn.com/health/story/6036/1605252",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "chicken-wings",
@@ -266,8 +338,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "宋明樺營養師（北市營養師公會，經聯合報元氣網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "表面沾附黏液，用水沖洗也無法洗掉，或散發腥臭味",
+        "verdict": "discard",
+        "source_url": "https://health.udn.com/health/story/6036/1605252",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "chicken-gizzard",
@@ -348,8 +432,27 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部官方FAQ"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "切面出現綠色彩光（虹彩現象），轉動角度光澤會消失或變淡，屬肌肉結構反光造成的正常物理現象",
+        "verdict": "quality-loss",
+        "source_url": "https://www.moa.gov.tw/faq_view.php?id=66",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "綠色彩光同時伴隨黏液、異味（轉動角度光澤不會消失），才代表已經變質",
+        "verdict": "discard",
+        "source_url": "https://www.moa.gov.tw/faq_view.php?id=66",
+        "source_date": "2026-08-01"
+      }
+    ],
+    "easily_confused_with": "牛肉切面出現「綠色彩光」與「真正腐敗變色」容易讓人誤會。關鍵差異：純物理反光的綠色彩光會隨觀看角度改變而消失或變淡，且沒有黏液、異味；若绿色不隨角度改變、還伴隨黏液或異味，才是真正變質。"
   },
   {
     "id": "ground-beef",
@@ -463,7 +566,19 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業部（農業知識入口網「在地有料／國產羊肉、羊乳消費指引」，農業部官方撰寫文章）；來源原文只直接陳述新鮮羊肉的正面標準（摸起來黏手、有彈性、切厚片立得起來），「不新鮮」的判斷是依此反向推論而來，來源未直接陳述丟棄建議，故列為secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "觸感滑滑的（不黏手）、切片後肌肉沒有彈性、無法立起",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54217",
+        "source_date": "2026-08-01"
+      }
+    ]
   }
 ]

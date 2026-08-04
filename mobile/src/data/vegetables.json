@@ -46,8 +46,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部農糧署（經中時新聞網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉梗或葉面出現黑點（俗稱「芝麻病」／黑點病，與生長或儲存過程中的生理性問題有關，如氮肥代謝或溫度），不影響營養價值",
+        "verdict": "quality-loss",
+        "source_url": "https://www.chinatimes.com/realtimenews/20260203002689-260405",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉梗或葉面出現大面積黑斑或褐斑（可能已感染黑斑病、炭疽病等病害）",
+        "verdict": "discard",
+        "source_url": "https://www.chinatimes.com/realtimenews/20260203002689-260405",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "sweet-potato",
@@ -91,8 +109,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部農糧署（官方臉書發文，經自由電子報報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "發芽，會消耗部分養分導致口感變差、甜度下降，但不會產生有毒物質，仍可食用",
+        "verdict": "quality-loss",
+        "source_url": "https://food.ltn.com.tw/article/12369",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "表面出現褐色凹陷病斑，甚至有白色菌絲或散發腐臭味（菌絲可能已深入內部）",
+        "verdict": "discard",
+        "source_url": "https://food.ltn.com.tw/article/12369",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "tomato",
@@ -141,8 +177,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "台南區農業改良場（經農業知識入口網官方問答引述）＋農業部（經自由健康網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "蒂頭發黑（儲藏期間感染所致），風味不佳，不建議食用",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=19075",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "果實表面出現褐黑痕跡或發霉",
+        "verdict": "discard",
+        "source_url": "https://health.ltn.com.tw/article/breakingnews/4561889",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "scallion",
@@ -191,8 +245,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "daikon",
@@ -231,8 +303,45 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部農糧署（經愛料理生活誌報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "表皮出現裂口，若乾燥無腐爛，削除表皮及裂縫即可食用",
+        "verdict": "quality-loss",
+        "source_url": "https://icook.tw/blogs/220765",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "切開中心呈現空洞（蓬心，過熟或過晚採收所致），若無變質變色仍可食用，只是口感較差",
+        "verdict": "quality-loss",
+        "source_url": "https://icook.tw/blogs/220765",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "帶有苦味（生長期環境逆境所致），可食用但風味不佳，不影響健康",
+        "verdict": "quality-loss",
+        "source_url": "https://icook.tw/blogs/220765",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "切面出現藍色、紫紅色（酚類物質轉換成花青素的自然反應），不影響健康，可安心食用",
+        "verdict": "quality-loss",
+        "source_url": "https://icook.tw/blogs/220765",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "切開呈現黑色（可能源於營養缺乏或黑腐病菌感染）",
+        "verdict": "discard",
+        "source_url": "https://icook.tw/blogs/220765",
+        "source_date": "2026-08-01"
+      }
+    ],
+    "easily_confused_with": "切面「藍紫色」（花青素自然反應，正常可食）與「切面黑色」（可能為黑腐病菌感染，農糧署建議儘速丟棄）外觀顏色接近，容易搞混。藍紫色偏透亮、範圍較規則；黑腐病造成的黑色通常較深沉，可能伴隨組織軟爛。"
   },
   {
     "id": "water-spinach",
@@ -280,8 +389,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "bok-choy",
@@ -334,8 +461,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "spinach",
@@ -387,8 +532,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "chinese-chives",
@@ -435,8 +598,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "garland-chrysanthemum",
@@ -479,8 +660,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "loofah",
@@ -647,8 +846,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "美國註冊營養師 Norah Clark、Kelly Costa（經TVBS健康2.0報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "表面出現小範圍黑點，聞起來新鮮、摸起來脆而不黏",
+        "verdict": "quality-loss",
+        "source_url": "https://health.tvbs.com.tw/nutrition/353842",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "黑點範圍廣泛，且散發難聞氣味，或質地變得黏糊",
+        "verdict": "discard",
+        "source_url": "https://health.tvbs.com.tw/nutrition/353842",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "taiwan-lettuce",
@@ -697,8 +914,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "taro",
@@ -776,8 +1011,33 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "「已發芽或變軟，內部可能發霉腐爛」一項直接引用農業部官方說明（經ETtoday報導引述），屬official等級；「表皮黑粉」與「中心軟爛滲汁」兩項為專家說法經TVBS健康2.0報導引述，非官方機構原文，故整筆保守列為secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "表皮出現黑色粉末（俗稱「黑煙」），多半是受潮產生的黴菌，去除外皮清洗乾淨即可食用",
+        "verdict": "quality-loss",
+        "source_url": "https://health.tvbs.com.tw/nutrition/356719",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "已發芽或變軟，內部可能發霉或腐爛",
+        "verdict": "discard",
+        "source_url": "https://www.ettoday.net/news/20240401/2711044.htm",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "從中心開始變色、軟爛，甚至滲出汁液（代表感染已向外擴散）",
+        "verdict": "discard",
+        "source_url": "https://health.tvbs.com.tw/nutrition/356719",
+        "source_date": "2026-08-01"
+      }
+    ],
+    "easily_confused_with": "表皮出現黑色粉末（外皮受潮產生的黴菌，去皮清洗即可食用）與「內部從中心開始軟爛、滲出汁液」（感染已向內擴散，應丟棄）外觀階段容易混淆。關鍵差異：黑粉只在最外層乾燥表皮，剝除後蔥球本身完好；若中心已軟爛出水，代表感染已深入內部，應整顆丟棄。"
   },
   {
     "id": "napa-cabbage",
@@ -820,8 +1080,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網官方問答（針對「葉菜類」這個大分類的一般性判斷原則，非該食材專屬頁面，適用於各種葉菜）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片變軟，但沒有變黃、腐爛（僅是水分流失，口感稍差）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片明顯發黃，或出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "carrot",
@@ -863,8 +1141,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "台南區農業改良場（經農業知識入口網官方問答引述）；本項只查到發芽相關說明，未查到變色／軟爛等丟棄類徵兆的可靠來源"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "發芽，仍可食用但營養價值與脆度會降低",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=5725",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "sweet-potato-leaves",
@@ -917,8 +1207,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "科技大觀園（余家瑩營養師撰文、中山醫學大學營養系劉承慈教授審稿，科技部補助平臺）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "葉片出現變黃或脫水，代表存放已久、不夠新鮮，但非食安疑慮",
+        "verdict": "quality-loss",
+        "source_url": "https://scitechvista.nat.gov.tw/Article/c000009/detail?ID=dd05fa9a-324f-4f35-80ff-56cf1eb7b8d8",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "葉片出現腐爛",
+        "verdict": "discard",
+        "source_url": "https://scitechvista.nat.gov.tw/Article/c000009/detail?ID=dd05fa9a-324f-4f35-80ff-56cf1eb7b8d8",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "bitter-melon",
@@ -1098,8 +1406,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業知識入口網（多位達人級會員討論共識，非單一署名官方回覆，故列為secondary）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "存放於陰涼通風處而發芽，仍可安全食用，僅營養價值降低",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=9499",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "存放於陽光照射處而發芽，表皮會變綠並產生生物鹼，不建議食用",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=9499",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "ginger",
@@ -1148,8 +1474,27 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "衛福部食藥署「食藥闢謠專區」官方說明"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "發芽，會消耗部分營養物質導致營養價值降低，但不會產生有毒物質，仍可食用",
+        "verdict": "quality-loss",
+        "source_url": "https://www.fda.gov.tw/TC/newsContent.aspx?cid=5049&id=21372",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "已經腐爛（不應只切除壞掉部分繼續使用），可能產生黃樟素（2B類可能致癌物）",
+        "verdict": "discard",
+        "source_url": "https://www.fda.gov.tw/TC/newsContent.aspx?cid=5049&id=21372",
+        "source_date": "2026-08-01"
+      }
+    ],
+    "easily_confused_with": "「發芽」與「發霉腐爛」外觀階段接近，容易混淆。關鍵差異看兩點：①薑體觸感是否仍硬實 ②切開內部是否發黑。發芽無毒只是營養流失，仍可食用；腐爛則可能產生黃樟素（2B類可能致癌物），應整塊丟棄。"
   },
   {
     "id": "green-bean",

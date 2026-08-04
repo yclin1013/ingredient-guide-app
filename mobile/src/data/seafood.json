@@ -44,8 +44,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部漁業署（經TVBS健康2.0報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "眼睛出現白霧狀混濁；表皮破損或顏色偏白；內骨骼外露或斷裂受傷",
+        "verdict": "discard",
+        "source_url": "https://health.tvbs.com.tw/nutrition/347765",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "white-shrimp",
@@ -97,8 +109,27 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部水產試驗所（黑變說明）與食藥署（經TVBS健康2.0報導引述，不新鮮判斷）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "蝦頭、蝦尾或蝦腳出現黑色斑點（黑變）——這是離水死亡後體內酵素催化酪胺酸代謝產生黑色素的自然現象",
+        "verdict": "quality-loss",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=951",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "蝦頭與蝦身連接處鬆脫、快要脫離，且整隻蝦摸起來軟爛",
+        "verdict": "discard",
+        "source_url": "https://health.tvbs.com.tw/nutrition/353624",
+        "source_date": "2026-08-01"
+      }
+    ],
+    "easily_confused_with": "「蝦頭出現黑點」很容易被誤以為不新鮮，但這其實是正常的「黑變」現象（酵素氧化，常見於頭尾足部），不影響食用安全。真正該注意的是蝦頭與蝦身的連接是否鬆脫、蝦身摸起來是否軟爛——這才是不新鮮的徵兆，不是看顏色黑不黑。"
   },
   {
     "id": "milkfish",
@@ -147,8 +178,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部水產試驗所官方新鮮度判別指南"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "魚眼混濁凹陷、魚鰓呈灰褐色或灰綠色且有黏液、魚身黏液呈乳白色不透明、按壓魚肉沒有彈性且散發異臭",
+        "verdict": "discard",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "tilapia",
@@ -196,8 +239,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業部水產試驗所官方新鮮度判別指南（一般魚類共通判斷原則，非該魚種專屬頁面，適用於各種魚類）；來源原文只直接陳述新鮮魚的正面標準（眼部明亮清澈、鰓呈鮮桃紅色、按壓有彈力、無異臭），丟棄徵兆是依此反向推論而來，來源未直接陳述丟棄建議，故列為secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "魚眼混濁不清澈、魚鰓不呈鮮桃紅色（轉為黯淡或灰褐）、魚肉按壓沒有彈力感、散發異臭",
+        "verdict": "discard",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "mackerel",
@@ -243,8 +298,33 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部水產試驗所官方新鮮度判別指南"
+      },
+      "hiddenRisks": {
+        "level": "official",
+        "source": "衛福部食藥署「食藥闢謠專區」官方說明"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "魚眼混濁凹陷、魚鰓呈灰褐色或灰綠色且有黏液、魚身黏液呈乳白色不透明、按壓魚肉沒有彈性且散發異臭",
+        "verdict": "discard",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
+        "source_date": "2026-08-01"
+      }
+    ],
+    "hiddenRisks": [
+      {
+        "risk": "組織胺中毒（鯖科魚類食物中毒／scombrotoxicosis）：食用後數分鐘至4小時內可能出現臉部潮紅、皮膚紅疹、身體發癢等過敏性中毒症狀，症狀可持續3至36小時",
+        "why_not_visible": "魚體中的組胺酸（histidine）在不當保存下經細菌作用轉變為組織胺（histamine），這個轉變發生在腐敗初期，無法經由外觀或氣味辨別",
+        "prevention": "購買後全程保持低溫或冷凍狀態、避免溫度回升，是唯一有效的預防方式；沒有任何「看起來還新鮮」的判斷方式可以取代正確冷藏冷凍",
+        "source_url": "https://www.fda.gov.tw/tc/newsContent.aspx?cid=5049&id=13769",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "hairtail",
@@ -289,8 +369,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業部水產試驗所官方新鮮度判別指南（一般魚類共通判斷原則，非該魚種專屬頁面，適用於各種魚類）；來源原文只直接陳述新鮮魚的正面標準（眼部明亮清澈、鰓呈鮮桃紅色、按壓有彈力、無異臭），丟棄徵兆是依此反向推論而來，來源未直接陳述丟棄建議，故列為secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "魚眼混濁不清澈、魚鰓不呈鮮桃紅色（轉為黯淡或灰褐）、魚肉按壓沒有彈力感、散發異臭",
+        "verdict": "discard",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "seabass",
@@ -349,8 +441,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業部水產試驗所官方新鮮度判別指南（一般魚類共通判斷原則，非該魚種專屬頁面，適用於各種魚類）；來源原文只直接陳述新鮮魚的正面標準（眼部明亮清澈、鰓呈鮮桃紅色、按壓有彈力、無異臭），丟棄徵兆是依此反向推論而來，來源未直接陳述丟棄建議，故列為secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "魚眼混濁不清澈、魚鰓不呈鮮桃紅色（轉為黯淡或灰褐）、魚肉按壓沒有彈力感、散發異臭",
+        "verdict": "discard",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "clam",
@@ -403,8 +507,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部食農教育資訊整合平臺與農業部漁業署（經元氣網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "殼與殼互敲時聲音悶沉如鼓聲（代表已死亡、殼內中空無肉），或散發強烈腥臭味",
+        "verdict": "discard",
+        "source_url": "https://fae.moa.gov.tw/map/food_item.php?type=AS06&id=206",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "clam-freshwater",
@@ -456,8 +572,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網「食材你好－蜆」"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "殼與殼互敲時聲音空洞（空殼聲），代表已死亡不新鮮（正常應清脆扎實）",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54335",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "oyster",
@@ -527,8 +655,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部漁業署建議（經農傳媒報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "蚵身出現發綠、泛黃、死白等異常顏色，或散發腥味",
+        "verdict": "discard",
+        "source_url": "https://www.agriharvest.tw/archives/39170/",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "cuttlefish",
@@ -585,8 +725,20 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部漁業署（經TVBS健康2.0報導引述，頭足類共通判斷原則，資料來源／農業部）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "眼睛出現白霧狀混濁；表皮破損或顏色偏白；內骨骼外露或斷裂受損",
+        "verdict": "discard",
+        "source_url": "https://health.tvbs.com.tw/nutrition/347765",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "grouper",
@@ -659,7 +811,19 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "農業部水產試驗所官方新鮮度判別指南（一般魚類共通判斷原則，非該魚種專屬頁面，適用於各種魚類）；來源原文只直接陳述新鮮魚的正面標準（眼部明亮清澈、鰓呈鮮桃紅色、按壓有彈力、無異臭），丟棄徵兆是依此反向推論而來，來源未直接陳述丟棄建議，故列為secondary"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "魚眼混濁不清澈、魚鰓不呈鮮桃紅色（轉為黯淡或灰褐）、魚肉按壓沒有彈力感、散發異臭",
+        "verdict": "discard",
+        "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
+        "source_date": "2026-08-01"
+      }
+    ]
   }
 ]

@@ -361,8 +361,26 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農委會（現已改制為農業部，經聯合報元氣網報導引述）"
       }
-    }
+    },
+    "spoilageSigns": [
+      {
+        "sign": "果皮出現褐色、黑色斑點或疤痕（柑橘類病害如黑點病、瘡痂病所致），對人體無害、果肉不受影響，清洗後仍可食用",
+        "verdict": "quality-loss",
+        "source_url": "https://health.udn.com/health/story/6037/4260012",
+        "source_date": "2026-08-01"
+      },
+      {
+        "sign": "果蒂部位變黑或脫落、果皮出現皺縮失水，代表存放已久",
+        "verdict": "quality-loss",
+        "source_url": "https://health.udn.com/health/story/6037/4260012",
+        "source_date": "2026-08-01"
+      }
+    ]
   },
   {
     "id": "grape",

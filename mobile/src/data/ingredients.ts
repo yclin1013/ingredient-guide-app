@@ -41,6 +41,11 @@ export function formatSeasonShort(item: Ingredient): string {
   return ranges.join('、');
 }
 
+/** 把查證日期（YYYY-MM-DD）轉成 UI 顯示用的格式（YYYY/MM/DD） */
+export function formatSourceDate(dateStr: string): string {
+  return dateStr.replace(/-/g, '/');
+}
+
 export function isMonthsInSeason(months: number[] | undefined, currentMonth: number): boolean {
   return Array.isArray(months) && months.length < 12 && months.includes(currentMonth);
 }

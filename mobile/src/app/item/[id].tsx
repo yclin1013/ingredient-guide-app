@@ -4,17 +4,29 @@ import { useState, type ReactNode } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import CategoryIcon from '../../components/CategoryIcon';
+import HiddenRiskList from '../../components/HiddenRiskList';
 import NutritionGrid from '../../components/NutritionGrid';
 import SeasonTicket from '../../components/SeasonTicket';
+import SpoilageSignList from '../../components/SpoilageSignList';
 import StampBadge from '../../components/StampBadge';
 import TipList from '../../components/TipList';
 import { ITEMS, isMonthsInSeason } from '../../data/ingredients';
-import { CATS, FONT, INK, LINE, MUTED, PAPER } from '../../theme';
+import { CATS, FONT, INK, LINE, MUTED, PAPER, STAMP_RED } from '../../theme';
 
-function Section({ title, note, children }: { title: string; note?: string; children: ReactNode }) {
+function Section({
+  title,
+  note,
+  titleColor,
+  children,
+}: {
+  title: string;
+  note?: string;
+  titleColor?: string;
+  children: ReactNode;
+}) {
   return (
     <View style={styles.section}>
-      <Text style={styles.sectionTitle}>
+      <Text style={[styles.sectionTitle, titleColor ? { color: titleColor } : null]}>
         {title}
         {note ? <Text style={styles.sectionNote}>（{note}）</Text> : null}
       </Text>
@@ -120,6 +132,18 @@ export default function ItemDetail() {
           <Section title="保存方式">
             <Text style={[styles.bodyText, styles.storageBox]}>{item.storage}</Text>
           </Section>
+
+          {item.spoilageSigns && item.spoilageSigns.length > 0 && (
+            <Section title="保存後如何判斷">
+              <SpoilageSignList signs={item.spoilageSigns} />
+            </Section>
+          )}
+
+          {item.hiddenRisks && item.hiddenRisks.length > 0 && (
+            <Section title="需特別留意" titleColor={STAMP_RED}>
+              <HiddenRiskList risks={item.hiddenRisks} />
+            </Section>
+          )}
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,7 +2,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ChevronLeft } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import CategoryIcon from '../../components/CategoryIcon';
 import HiddenRiskList from '../../components/HiddenRiskList';
 import NutritionGrid from '../../components/NutritionGrid';
@@ -39,6 +39,7 @@ export default function ItemDetail() {
   const router = useRouter();
   const { id } = useLocalSearchParams<{ id: string }>();
   const [variantIdx, setVariantIdx] = useState(0);
+  const insets = useSafeAreaInsets();
 
   const item = ITEMS.find((i) => i.id === id);
   if (!item) {
@@ -66,7 +67,10 @@ export default function ItemDetail() {
 
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
-      <Pressable onPress={() => router.back()} style={styles.backButtonFixed}>
+      <Pressable
+        onPress={() => router.back()}
+        style={[styles.backButtonFixed, { top: insets.top + 12 }]}
+      >
         <ChevronLeft size={16} color={MUTED} />
         <Text style={styles.backText}>返回</Text>
       </Pressable>
@@ -163,7 +167,6 @@ const styles = StyleSheet.create({
   },
   backButtonFixed: {
     position: 'absolute',
-    top: 12,
     left: 20,
     zIndex: 10,
     flexDirection: 'row',

@@ -7,6 +7,9 @@ export const PAPER = '#F3F5EE';
 export const LINE = '#E4E1D5';
 export const STAMP_RED = '#B33A2E';
 
+/** 網頁版內容區域最大寬度，避免寬螢幕下容器無限撐寬、圖片比例跑掉 */
+export const MAX_CONTENT_WIDTH = 640;
+
 export const FONT = {
   display: 'NotoSerifTC_700Bold',
   sans: 'NotoSansTC_400Regular',

@@ -1,6 +1,6 @@
 import { Search } from 'lucide-react-native';
 import { StyleSheet, Text, TextInput, View } from 'react-native';
-import { FONT, INK, LINE, MUTED } from '../theme';
+import { FONT, INK, LINE, MAX_CONTENT_WIDTH, MUTED } from '../theme';
 
 type Props = { query: string; onChangeQuery: (q: string) => void };
 
@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingTop: 24,
     paddingBottom: 12,
+    width: '100%',
+    maxWidth: MAX_CONTENT_WIDTH,
+    alignSelf: 'center',
   },
   tagline: {
     fontFamily: FONT.mono,

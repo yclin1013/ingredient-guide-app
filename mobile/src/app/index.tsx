@@ -7,7 +7,7 @@ import ItemCard from '../components/ItemCard';
 import SearchHeader from '../components/SearchHeader';
 import SearchResults from '../components/SearchResults';
 import { ITEMS, isItemInSeason, type Category } from '../data/ingredients';
-import { CATS, FONT, INK, LINE, MUTED, PAPER, tint } from '../theme';
+import { CATS, FONT, INK, LINE, MAX_CONTENT_WIDTH, MUTED, PAPER, tint } from '../theme';
 
 export default function Home() {
   const router = useRouter();
@@ -87,7 +87,12 @@ export default function Home() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: PAPER },
   scroll: { paddingBottom: 40 },
-  content: { paddingHorizontal: 20 },
+  content: {
+    paddingHorizontal: 20,
+    width: '100%',
+    maxWidth: MAX_CONTENT_WIDTH,
+    alignSelf: 'center',
+  },
   sectionHeader: {
     flexDirection: 'row',
     alignItems: 'center',

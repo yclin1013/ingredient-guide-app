@@ -1,7 +1,7 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ChevronLeft } from 'lucide-react-native';
 import { useState, type ReactNode } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import CategoryIcon from '../../components/CategoryIcon';
 import HiddenRiskList from '../../components/HiddenRiskList';
@@ -11,7 +11,8 @@ import SpoilageSignList from '../../components/SpoilageSignList';
 import StampBadge from '../../components/StampBadge';
 import TipList from '../../components/TipList';
 import { ITEMS, isMonthsInSeason } from '../../data/ingredients';
-import { CATS, FONT, INK, LINE, MUTED, PAPER, STAMP_RED } from '../../theme';
+import { INGREDIENT_PHOTOS } from '../../data/ingredientPhotos';
+import { CATS, FONT, INK, LINE, MAX_CONTENT_WIDTH, MUTED, PAPER, STAMP_RED } from '../../theme';
 
 function Section({
   title,
@@ -57,6 +58,7 @@ export default function ItemDetail() {
   }
 
   const catColor = CATS[item.category].color;
+  const photo = INGREDIENT_PHOTOS[item.id];
   const variant = item.variants ? item.variants[variantIdx] : null;
   const months = variant ? variant.months : item.months;
   const appearance = variant ? variant.appearance : item.characteristics;
@@ -106,10 +108,18 @@ export default function ItemDetail() {
             </View>
           )}
 
-          <View style={[styles.imagePlaceholder, { backgroundColor: catColor + '14' }]}>
-            <CategoryIcon category={item.category} size={48} />
+          <View style={styles.imageWrap}>
+            <View style={styles.imageContainer}>
+              {photo ? (
+                <Image source={photo} style={styles.photoImage} resizeMode="contain" />
+              ) : (
+                <View style={[styles.iconFill, { backgroundColor: catColor + '14' }]}>
+                  <CategoryIcon category={item.category} size={40} />
+                </View>
+              )}
+            </View>
           </View>
-          <Text style={styles.imageCaption}>（示意圖，之後串接實拍照片）</Text>
+          {!photo && <Text style={styles.imageCaption}>（示意圖，之後串接實拍照片）</Text>}
 
           <Section title="產季">
             {months ? (
@@ -157,7 +167,13 @@ export default function ItemDetail() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: PAPER },
   scroll: { paddingBottom: 40 },
-  content: { paddingHorizontal: 20, paddingTop: 56 },
+  content: {
+    paddingHorizontal: 20,
+    paddingTop: 56,
+    width: '100%',
+    maxWidth: MAX_CONTENT_WIDTH,
+    alignSelf: 'center',
+  },
   backButton: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -227,14 +243,32 @@ const styles = StyleSheet.create({
   variantTextActive: {
     color: '#FFFFFF',
   },
-  imagePlaceholder: {
-    height: 160,
+  imageWrap: {
+    width: '100%',
+    alignItems: 'flex-start',
+    marginTop: 20,
+  },
+  imageContainer: {
+    width: '50%',
+    aspectRatio: 1,
     borderRadius: 12,
     borderWidth: 1,
     borderColor: LINE,
+    backgroundColor: '#FFFFFF',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 20,
+    overflow: 'hidden',
+    padding: 18,
+  },
+  photoImage: {
+    width: '100%',
+    height: '100%',
+  },
+  iconFill: {
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   imageCaption: {
     fontFamily: FONT.sans,

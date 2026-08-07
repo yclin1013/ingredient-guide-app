@@ -57,7 +57,9 @@
         "source_url": "https://health.tvbs.com.tw/nutrition/347765",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "squid.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "white-shrimp",
@@ -129,7 +131,9 @@
         "source_date": "2026-08-01"
       }
     ],
-    "easily_confused_with": "「蝦頭出現黑點」很容易被誤以為不新鮮，但這其實是正常的「黑變」現象（酵素氧化，常見於頭尾足部），不影響食用安全。真正該注意的是蝦頭與蝦身的連接是否鬆脫、蝦身摸起來是否軟爛——這才是不新鮮的徵兆，不是看顏色黑不黑。"
+    "easily_confused_with": "「蝦頭出現黑點」很容易被誤以為不新鮮，但這其實是正常的「黑變」現象（酵素氧化，常見於頭尾足部），不影響食用安全。真正該注意的是蝦頭與蝦身的連接是否鬆脫、蝦身摸起來是否軟爛——這才是不新鮮的徵兆，不是看顏色黑不黑。",
+    "image": "white-shrimp.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "milkfish",
@@ -191,7 +195,9 @@
         "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "milkfish.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "tilapia",
@@ -252,7 +258,9 @@
         "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "tilapia.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "mackerel",
@@ -324,7 +332,9 @@
         "source_url": "https://www.fda.gov.tw/tc/newsContent.aspx?cid=5049&id=13769",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "mackerel.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "hairtail",
@@ -382,7 +392,9 @@
         "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "hairtail.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "seabass",
@@ -454,7 +466,9 @@
         "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "seabass.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "clam",
@@ -520,7 +534,9 @@
         "source_url": "https://fae.moa.gov.tw/map/food_item.php?type=AS06&id=206",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "clam.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "clam-freshwater",
@@ -585,7 +601,9 @@
         "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54335",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "clam-freshwater.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "oyster",
@@ -668,7 +686,9 @@
         "source_url": "https://www.agriharvest.tw/archives/39170/",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "oyster.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "cuttlefish",
@@ -738,7 +758,9 @@
         "source_url": "https://health.tvbs.com.tw/nutrition/347765",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "cuttlefish.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "grouper",
@@ -824,6 +846,8 @@
         "source_url": "https://www.tfrin.gov.tw/theme_data.php?theme=qa&sub_theme=safety&id=934",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "grouper.jpg",
+    "imagePlaceholder": true
   }
 ]

@@ -75,7 +75,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "mango.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "guava",
@@ -146,7 +148,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=9959",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "guava.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "banana",
@@ -191,7 +195,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "banana.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "papaya",
@@ -241,7 +247,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "papaya.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "pineapple",
@@ -281,7 +289,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "pineapple.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "watermelon",
@@ -320,7 +330,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "watermelon.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "orange",
@@ -380,7 +392,9 @@
         "source_url": "https://health.udn.com/health/story/6037/4260012",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "orange.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "grape",
@@ -418,7 +432,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "grape.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "wax-apple",
@@ -456,7 +472,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "wax-apple.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "dragon-fruit",
@@ -497,7 +515,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "dragon-fruit.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "passion-fruit",
@@ -547,7 +567,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "passion-fruit.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "strawberry",
@@ -591,6 +613,8 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "strawberry.jpg",
+    "imagePlaceholder": true
   }
 ]

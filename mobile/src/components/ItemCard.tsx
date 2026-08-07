@@ -1,5 +1,6 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { formatSeasonShort, type Ingredient } from '../data/ingredients';
+import { INGREDIENT_PHOTOS } from '../data/ingredientPhotos';
 import { CATS, FONT, INK, LINE, MUTED, tint } from '../theme';
 import CategoryIcon from './CategoryIcon';
 import StampBadge from './StampBadge';
@@ -13,6 +14,7 @@ type Props = {
 
 export default function ItemCard({ item, onPress, seasonal = false }: Props) {
   const color = CATS[item.category].color;
+  const photo = INGREDIENT_PHOTOS[item.id];
   const subtitle =
     seasonal && item.variants ? '看看有哪些品種當季' : formatSeasonShort(item);
 
@@ -25,8 +27,12 @@ export default function ItemCard({ item, onPress, seasonal = false }: Props) {
         pressed && styles.pressed,
       ]}
     >
-      <View style={[styles.imageArea, { backgroundColor: tint(color) }]}>
-        <CategoryIcon category={item.category} size={30} />
+      <View style={[styles.imageArea, { backgroundColor: photo ? '#FFFFFF' : tint(color) }]}>
+        {photo ? (
+          <Image source={photo} style={styles.photoImage} resizeMode="contain" />
+        ) : (
+          <CategoryIcon category={item.category} size={30} />
+        )}
         {seasonal && (
           <View style={styles.stamp}>
             <StampBadge size={28} />
@@ -53,9 +59,17 @@ const styles = StyleSheet.create({
   cardSeasonal: { width: 160 },
   pressed: { opacity: 0.85 },
   imageArea: {
-    height: 80,
+    width: '100%',
+    aspectRatio: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: LINE,
+    padding: 14,
+  },
+  photoImage: {
+    width: '100%',
+    height: '100%',
   },
   stamp: {
     position: 'absolute',

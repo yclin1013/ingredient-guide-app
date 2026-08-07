@@ -46,7 +46,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "pork-belly.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "chicken-thigh",
@@ -94,7 +96,9 @@
         "source_url": "https://health.udn.com/health/story/6036/1605252",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "chicken-thigh.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "pork-loin",
@@ -143,7 +147,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "pork-loin.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "ground-pork",
@@ -196,7 +202,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "ground-pork.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "pork-ribs",
@@ -249,7 +257,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=186",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "pork-ribs.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "chicken-breast",
@@ -302,7 +312,9 @@
         "source_url": "https://health.udn.com/health/story/6036/1605252",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "chicken-breast.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "chicken-wings",
@@ -351,7 +363,9 @@
         "source_url": "https://health.udn.com/health/story/6036/1605252",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "chicken-wings.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "chicken-gizzard",
@@ -392,7 +406,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "chicken-gizzard.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "beef-shank",
@@ -452,7 +468,9 @@
         "source_date": "2026-08-01"
       }
     ],
-    "easily_confused_with": "牛肉切面出現「綠色彩光」與「真正腐敗變色」容易讓人誤會。關鍵差異：純物理反光的綠色彩光會隨觀看角度改變而消失或變淡，且沒有黏液、異味；若绿色不隨角度改變、還伴隨黏液或異味，才是真正變質。"
+    "easily_confused_with": "牛肉切面出現「綠色彩光」與「真正腐敗變色」容易讓人誤會。關鍵差異：純物理反光的綠色彩光會隨觀看角度改變而消失或變淡，且沒有黏液、異味；若绿色不隨角度改變、還伴隨黏液或異味，才是真正變質。",
+    "image": "beef-shank.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "ground-beef",
@@ -489,7 +507,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "ground-beef.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "duck-breast",
@@ -530,7 +550,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "duck-breast.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "lamb-slices",
@@ -579,6 +601,8 @@
         "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54217",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "lamb-slices.jpg",
+    "imagePlaceholder": true
   }
 ]

@@ -65,7 +65,9 @@
         "source_url": "https://www.chinatimes.com/realtimenews/20260203002689-260405",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "cabbage.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "sweet-potato",
@@ -128,7 +130,9 @@
         "source_url": "https://food.ltn.com.tw/article/12369",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "sweet-potato.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "tomato",
@@ -196,7 +200,9 @@
         "source_url": "https://health.ltn.com.tw/article/breakingnews/4561889",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "tomato.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "scallion",
@@ -264,7 +270,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "scallion.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "daikon",
@@ -341,7 +349,9 @@
         "source_date": "2026-08-01"
       }
     ],
-    "easily_confused_with": "切面「藍紫色」（花青素自然反應，正常可食）與「切面黑色」（可能為黑腐病菌感染，農糧署建議儘速丟棄）外觀顏色接近，容易搞混。藍紫色偏透亮、範圍較規則；黑腐病造成的黑色通常較深沉，可能伴隨組織軟爛。"
+    "easily_confused_with": "切面「藍紫色」（花青素自然反應，正常可食）與「切面黑色」（可能為黑腐病菌感染，農糧署建議儘速丟棄）外觀顏色接近，容易搞混。藍紫色偏透亮、範圍較規則；黑腐病造成的黑色通常較深沉，可能伴隨組織軟爛。",
+    "image": "daikon.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "water-spinach",
@@ -408,7 +418,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "water-spinach.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "bok-choy",
@@ -480,7 +492,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "bok-choy.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "spinach",
@@ -551,7 +565,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "spinach.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "chinese-chives",
@@ -617,7 +633,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "chinese-chives.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "garland-chrysanthemum",
@@ -718,7 +736,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "loofah.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "cucumber",
@@ -764,7 +784,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "cucumber.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "eggplant",
@@ -804,7 +826,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "eggplant.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "cauliflower",
@@ -865,7 +889,9 @@
         "source_url": "https://health.tvbs.com.tw/nutrition/353842",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "cauliflower.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "taiwan-lettuce",
@@ -933,7 +959,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "taiwan-lettuce.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "taro",
@@ -973,7 +1001,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "taro.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "onion",
@@ -1037,7 +1067,9 @@
         "source_date": "2026-08-01"
       }
     ],
-    "easily_confused_with": "表皮出現黑色粉末（外皮受潮產生的黴菌，去皮清洗即可食用）與「內部從中心開始軟爛、滲出汁液」（感染已向內擴散，應丟棄）外觀階段容易混淆。關鍵差異：黑粉只在最外層乾燥表皮，剝除後蔥球本身完好；若中心已軟爛出水，代表感染已深入內部，應整顆丟棄。"
+    "easily_confused_with": "表皮出現黑色粉末（外皮受潮產生的黴菌，去皮清洗即可食用）與「內部從中心開始軟爛、滲出汁液」（感染已向內擴散，應丟棄）外觀階段容易混淆。關鍵差異：黑粉只在最外層乾燥表皮，剝除後蔥球本身完好；若中心已軟爛出水，代表感染已深入內部，應整顆丟棄。",
+    "image": "onion.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "napa-cabbage",
@@ -1099,7 +1131,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "napa-cabbage.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "carrot",
@@ -1154,7 +1188,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=5725",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "carrot.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "sweet-potato-leaves",
@@ -1226,7 +1262,9 @@
         "source_url": "https://scitechvista.nat.gov.tw/Article/c000009/detail?ID=dd05fa9a-324f-4f35-80ff-56cf1eb7b8d8",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "sweet-potato-leaves.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "bitter-melon",
@@ -1270,7 +1308,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "bitter-melon.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "pumpkin",
@@ -1317,7 +1357,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "pumpkin.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "winter-melon",
@@ -1362,7 +1404,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "winter-melon.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "garlic",
@@ -1425,7 +1469,9 @@
         "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=9499",
         "source_date": "2026-08-01"
       }
-    ]
+    ],
+    "image": "garlic.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "ginger",
@@ -1494,7 +1540,9 @@
         "source_date": "2026-08-01"
       }
     ],
-    "easily_confused_with": "「發芽」與「發霉腐爛」外觀階段接近，容易混淆。關鍵差異看兩點：①薑體觸感是否仍硬實 ②切開內部是否發黑。發芽無毒只是營養流失，仍可食用；腐爛則可能產生黃樟素（2B類可能致癌物），應整塊丟棄。"
+    "easily_confused_with": "「發芽」與「發霉腐爛」外觀階段接近，容易混淆。關鍵差異看兩點：①薑體觸感是否仍硬實 ②切開內部是否發黑。發芽無毒只是營養流失，仍可食用；腐爛則可能產生黃樟素（2B類可能致癌物），應整塊丟棄。",
+    "image": "ginger.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "green-bean",
@@ -1540,7 +1588,9 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "green-bean.jpg",
+    "imagePlaceholder": true
   },
   {
     "id": "corn",
@@ -1584,6 +1634,8 @@
       "months": {
         "level": "unverified"
       }
-    }
+    },
+    "image": "corn.jpg",
+    "imagePlaceholder": true
   }
 ]

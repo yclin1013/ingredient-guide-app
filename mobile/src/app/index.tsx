@@ -1,13 +1,13 @@
 import { useRouter } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import CategoryIcon from '../components/CategoryIcon';
 import ItemCard from '../components/ItemCard';
 import SearchHeader from '../components/SearchHeader';
 import SearchResults from '../components/SearchResults';
+import { CATEGORY_COVERS } from '../data/categoryCovers';
 import { ITEMS, isItemInSeason, type Category } from '../data/ingredients';
-import { CATS, FONT, INK, LINE, MAX_CONTENT_WIDTH, MUTED, PAPER, tint } from '../theme';
+import { CATS, FONT, INK, LINE, MAX_CONTENT_WIDTH, MUTED, PAPER } from '../theme';
 
 export default function Home() {
   const router = useRouter();
@@ -65,17 +65,14 @@ export default function Home() {
                     onPress={() => openCategory(cat)}
                     style={({ pressed }) => [styles.categoryCard, pressed && styles.pressed]}
                   >
-                    <View
-                      style={[styles.categoryIconWrap, { backgroundColor: tint(CATS[cat].color) }]}
-                    >
-                      <CategoryIcon category={cat} size={24} />
-                    </View>
-                    <Text style={styles.categoryName}>{cat}</Text>
+                    <Image
+                      source={CATEGORY_COVERS[cat]}
+                      style={styles.categoryCoverImage}
+                      resizeMode="cover"
+                    />
                   </Pressable>
                 ))}
               </View>
-
-              <Text style={styles.footnote}>＊目前為示範資料，內容陸續擴充中</Text>
             </>
           )}
         </View>
@@ -135,32 +132,15 @@ const styles = StyleSheet.create({
   },
   categoryCard: {
     width: '48.5%',
-    backgroundColor: '#FFFFFF',
+    aspectRatio: 1,
     borderWidth: 1,
     borderColor: LINE,
     borderRadius: 12,
-    paddingVertical: 16,
-    alignItems: 'center',
-    gap: 8,
+    overflow: 'hidden',
   },
   pressed: { opacity: 0.85 },
-  categoryIconWrap: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  categoryName: {
-    fontFamily: FONT.display,
-    fontSize: 15,
-    color: INK,
-  },
-  footnote: {
-    fontFamily: FONT.sans,
-    fontSize: 12,
-    color: MUTED,
-    textAlign: 'center',
-    marginTop: 40,
+  categoryCoverImage: {
+    width: '100%',
+    height: '100%',
   },
 });

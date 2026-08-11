@@ -1,6 +1,6 @@
 import { useRouter } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import ItemCard from '../components/ItemCard';
 import SearchHeader from '../components/SearchHeader';
@@ -8,6 +8,8 @@ import SearchResults from '../components/SearchResults';
 import { CATEGORY_COVERS } from '../data/categoryCovers';
 import { ITEMS, isItemInSeason, type Category } from '../data/ingredients';
 import { CATS, FONT, INK, LINE, MAX_CONTENT_WIDTH, MUTED, PAPER } from '../theme';
+
+const FEEDBACK_URL = 'https://forms.gle/uphtKtvAUqdL7rf56';
 
 export default function Home() {
   const router = useRouter();
@@ -72,6 +74,12 @@ export default function Home() {
                     />
                   </Pressable>
                 ))}
+              </View>
+
+              <View style={styles.footer}>
+                <Pressable onPress={() => Linking.openURL(FEEDBACK_URL)} hitSlop={8}>
+                  <Text style={styles.footerLink}>意見回饋</Text>
+                </Pressable>
               </View>
             </>
           )}
@@ -142,5 +150,16 @@ const styles = StyleSheet.create({
   categoryCoverImage: {
     width: '100%',
     height: '100%',
+  },
+  footer: {
+    alignItems: 'center',
+    gap: 10,
+    marginTop: 40,
+  },
+  footerLink: {
+    fontFamily: FONT.sans,
+    fontSize: 12,
+    color: MUTED,
+    textDecorationLine: 'underline',
   },
 });

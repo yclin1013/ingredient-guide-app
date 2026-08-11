@@ -1,0 +1,16 @@
+{
+  "name": "食材圖鑑・查證清單",
+  "short_name": "查證清單",
+  "description": "食材圖鑑資料查證用的內部工具，貼上待查證清單、打勾核對、同步到試算表。",
+  "start_url": "/review/",
+  "scope": "/review/",
+  "display": "standalone",
+  "background_color": "#F3F5EE",
+  "theme_color": "#F3F5EE",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

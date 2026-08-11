@@ -44,6 +44,7 @@ echo "3/3　輸出網頁版並部署到 Firebase Hosting"
 echo "=================================================="
 npx expo export --platform web
 cp dist/+not-found.html dist/404.html
+node ../scripts/generate-review-config.js
 npx firebase deploy --only hosting
 if [ $? -ne 0 ]; then
   echo "❌ Firebase Hosting 部署失敗"

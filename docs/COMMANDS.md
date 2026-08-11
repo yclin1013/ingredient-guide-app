@@ -46,11 +46,11 @@
 
 ## deploy-web.command
 
-- **用途**：重新輸出網頁版建置檔，部署到 Firebase Hosting
+- **用途**：重新輸出網頁版建置檔，部署到 Firebase Hosting；同時會產生 `/review` 查證清單工具頁面同步用的設定檔（讀取根目錄 `.env` 的 `REVIEW_SYNC_PASSPHRASE`、`REVIEW_APPS_SCRIPT_URL`，寫進只存在建置輸出目錄、不會進 git 的 `mobile/dist/review/config.js`）
 - **使用時機**：只想更新「網頁版」（分享給別人用瀏覽器看的那個），不想同時動到 GitHub 或手機版時
 - **是否需要網路**：需要，會上傳建置檔到 Firebase
 - **是否需要 Claude Code**：不需要，獨立雙擊執行
-- **前置設定**：需要先登入過 Firebase CLI（`npx firebase login`，目前使用帳號 `dannylin1013@gmail.com`），且專案已連結到 Firebase Hosting 專案 `ingredient-guide-app`（`mobile/firebase.json`、`mobile/.firebaserc` 已設定好）
+- **前置設定**：需要先登入過 Firebase CLI（`npx firebase login`，目前使用帳號 `dannylin1013@gmail.com`），且專案已連結到 Firebase Hosting 專案 `ingredient-guide-app`（`mobile/firebase.json`、`mobile/.firebaserc` 已設定好）；若要讓 `/review` 頁面的「同步到試算表」功能能用，根目錄 `.env` 要先設定好 `REVIEW_SYNC_PASSPHRASE`、`REVIEW_APPS_SCRIPT_URL`（見 `docs/REVIEW_TOOL_SETUP.md`）
 
 ## push-to-github.command
 

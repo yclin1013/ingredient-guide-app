@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>查證清單工具｜食材圖鑑</title>
+  <meta name="description" content="食材圖鑑資料查證用的內部工具" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <link rel="manifest" href="/review/manifest.json" />
+  <link rel="icon" href="/icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+  <meta name="theme-color" content="#F3F5EE" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="查證清單" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@400;500&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="/review/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>查證清單工具</h1>
+      <p class="subtitle">開啟頁面會自動讀取試算表最新狀態；打勾、寫備註先存本機，離線也能用，按「同步」才會連線。</p>
+      <p id="load-status" class="status-line status-muted"></p>
+    </header>
+
+    <section id="parse-section">
+      <h2>1. 貼上待查證清單（新增／更新項目時用）</h2>
+      <p class="subtitle" style="margin-bottom: 10px">
+        已經有人貼過的話，開啟頁面就會自動載入，不用每次都貼；VERIFICATION_TODO.md 更新後再貼一次即可。
+      </p>
+      <textarea id="paste-input" placeholder="把 VERIFICATION_TODO.md 的內容整份貼在這裡（含「查證來源對照」與「待查證清單」兩個段落）"></textarea>
+      <div class="row" style="margin-top: 10px">
+        <button id="parse-btn">解析並加入清單</button>
+        <button id="clear-input-btn" class="secondary" type="button">清空輸入框</button>
+      </div>
+      <p id="parse-status" class="status-line status-muted"></p>
+    </section>
+
+    <section id="list-section">
+      <h2>2. 核對清單</h2>
+      <div class="filters">
+        <button class="filter-pill active" data-filter="all">全部</button>
+        <button class="filter-pill" data-filter="unchecked">未核對</button>
+        <button class="filter-pill" data-filter="checked-unsynced">已核對・未同步</button>
+        <button class="filter-pill" data-filter="synced">已同步</button>
+      </div>
+      <p id="summary" class="summary"></p>
+      <div id="list-container"></div>
+    </section>
+
+    <section id="sync-section">
+      <h2>3. 同步到試算表</h2>
+      <p class="subtitle" style="margin-bottom: 10px">
+        只有按下按鈕時才會連線；打勾、寫備註都只存在這台裝置的瀏覽器裡，直到按下同步才會推到試算表。
+      </p>
+      <div class="row">
+        <button id="sync-btn" class="stamp">同步到試算表</button>
+      </div>
+      <p id="sync-status" class="status-line status-muted"></p>
+    </section>
+
+    <footer class="bottom">資料會先存在這個瀏覽器（localStorage），同步過的內容在任何裝置開啟都看得到最新狀態。</footer>
+  </div>
+
+  <script src="/review/config.js"></script>
+  <script src="/review/app.js"></script>
+</body>
+</html>

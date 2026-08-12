@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  padding-bottom: 64px;
+  padding-bottom: 140px;
 }
 
 .wrap {
@@ -115,6 +115,33 @@ button.stamp {
 button:disabled {
   opacity: 0.45;
   cursor: default;
+}
+
+/* 同步按鈕懸浮在畫面右下角，捲動清單時不用拉到最下面才能同步 */
+#sync-btn {
+  position: fixed;
+  right: 20px;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 40;
+  box-shadow: 0 4px 16px rgba(31, 46, 34, 0.28);
+}
+
+#sync-status {
+  position: fixed;
+  right: 20px;
+  left: 20px;
+  bottom: max(72px, calc(env(safe-area-inset-bottom) + 72px));
+  z-index: 40;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: right;
+  background: var(--paper);
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+#sync-status:empty {
+  display: none;
 }
 
 .row {
@@ -226,6 +253,11 @@ button:disabled {
 .item-field {
   font-size: 14px;
   font-weight: 500;
+}
+
+.item-source a {
+  color: var(--stamp-red);
+  text-decoration: underline;
 }
 
 .item-source {

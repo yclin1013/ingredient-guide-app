@@ -61,16 +61,15 @@
     <section id="sync-section">
       <h2>3. 同步到試算表</h2>
       <p class="subtitle" style="margin-bottom: 10px">
-        只有按下按鈕時才會連線；打勾、寫備註都只存在這台裝置的瀏覽器裡，直到按下同步才會推到試算表。
+        右下角有懸浮的「同步到試算表」按鈕，捲到哪都找得到；只有按下按鈕時才會連線，打勾、寫備註都只存在這台裝置的瀏覽器裡，直到按下同步才會推到試算表。
       </p>
-      <div class="row">
-        <button id="sync-btn" class="stamp">同步到試算表</button>
-      </div>
-      <p id="sync-status" class="status-line status-muted"></p>
     </section>
 
     <footer class="bottom">資料會先存在這個瀏覽器（localStorage），同步過的內容在任何裝置開啟都看得到最新狀態。</footer>
   </div>
+
+  <button id="sync-btn" class="stamp">同步到試算表</button>
+  <p id="sync-status" class="status-line status-muted"></p>
 
   <script src="/review/config.js"></script>
   <script src="/review/app.js"></script>

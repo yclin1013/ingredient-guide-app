@@ -61,6 +61,19 @@
     return legend[field] || '';
   }
 
+  // 跟 scripts/check-verification.js 的 FIELD_SOURCES 對應同一批網址；
+  // 「挑選技巧」天生需要多方來源交叉查證，沒有單一網址可連，維持 null。
+  function resolveSourceUrl(field, category) {
+    if (field === '營養') return 'https://data.gov.tw/dataset/8543';
+    if (field === '挑選技巧') return null;
+    if (field === '產季') {
+      return category === '海鮮'
+        ? 'https://www.foodforseason.com/blog/%E7%95%B6%E5%AD%A3%E6%B5%B7%E9%AE%AE/'
+        : 'https://www.afa.gov.tw/cht/index.php?code=list&ids=1103';
+    }
+    return null;
+  }
+
   function parseMarkdown(text) {
     var lines = text.split('\n');
     var sourceLegend = {}; // label -> source text
@@ -378,7 +391,18 @@
     if (item.source) {
       var sourceLine = document.createElement('div');
       sourceLine.className = 'item-source';
-      sourceLine.textContent = '建議來源：' + item.source;
+      sourceLine.appendChild(document.createTextNode('建議來源：'));
+      var sourceUrl = resolveSourceUrl(item.field, item.category);
+      if (sourceUrl) {
+        var sourceLink = document.createElement('a');
+        sourceLink.href = sourceUrl;
+        sourceLink.target = '_blank';
+        sourceLink.rel = 'noopener noreferrer';
+        sourceLink.textContent = item.source;
+        sourceLine.appendChild(sourceLink);
+      } else {
+        sourceLine.appendChild(document.createTextNode(item.source));
+      }
       textWrap.appendChild(sourceLine);
     }
 
@@ -451,6 +475,7 @@
     });
 
     syncBtn.disabled = true;
+    syncBtn.textContent = '同步中…';
     setStatus(syncStatus, '同步中…（' + pending.length + ' 筆）', 'muted');
 
     postToServer(

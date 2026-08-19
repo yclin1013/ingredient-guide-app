@@ -616,5 +616,871 @@
     },
     "image": "strawberry.jpg",
     "imagePlaceholder": true
+  },
+  {
+    "id": "asian-pear",
+    "name": "水梨",
+    "category": "水果",
+    "months": [
+      7,
+      8,
+      9
+    ],
+    "characteristics": "台灣常見品種有幸水梨、豐水梨等，果肉清脆多汁、甜度高，是夏秋之際常見的解渴水果。",
+    "selectionTips": [
+      "果形圓潤飽滿、端正者佳",
+      "色澤明亮，果點大且分布均勻",
+      "外觀無蟲孔、無軟爛",
+      "大小適中（過小果肉粗硬水分少，過大則果肉較粗、甜度較低）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 35 kcal/100g"
+      }
+    ],
+    "storage": "冷藏保存，可放約 1 星期；單顆套袋包裝可延緩失水，維持清脆口感。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：幸水梨、豐水梨平均（整合編號 D3000201、D3000206）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由健康網、風傳媒、健康醫療網等獨立媒體報導一致，引述農業部說法"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "asian-pear.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "longan",
+    "name": "龍眼",
+    "category": "水果",
+    "months": [
+      7,
+      8,
+      9
+    ],
+    "characteristics": "果皮黃褐色帶果粉，果肉半透明多汁、香甜，是台灣夏季代表水果之一，也常曬乾製成桂圓。",
+    "selectionTips": [
+      "枝幹完整，果實無脫落",
+      "果實飽滿硬挺、無裂果",
+      "輕壓有彈性（太軟代表水分甜度不足）",
+      "整串輕輕搖晃，垂墜感佳代表水分充足"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 72 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "常溫陰涼通風處可放 1 天；冷藏可先在外殼噴少許水分、用餐巾紙包裹後裝袋冷藏，延長保鮮。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：龍眼（整合編號 D2300101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由健康網、桃園電子報等獨立媒體報導一致，引述農糧署說法"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "longan.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "lychee",
+    "name": "荔枝",
+    "category": "水果",
+    "months": [
+      5,
+      6,
+      7
+    ],
+    "characteristics": "台灣主要品種有黑葉、玉荷包、糯米糍，果肉細緻多汁、口感Q彈，是初夏限定的人氣水果。",
+    "selectionTips": [
+      "果皮紅中帶綠、色澤鮮亮",
+      "果實飽滿紮實有彈性（發軟發鬆代表已失水）",
+      "聞起來有濃郁果香（避免酸味、酒味或霉味）",
+      "果柄青綠濕潤（發黑乾枯代表離枝已久）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 65 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "不要直接放進冰箱冷藏，容易變黑；建議去除葉片、用噴濕的報紙加塑膠袋包覆冷藏，可放 3–5 天，也可去殼去籽冷凍保存約 1 個月。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：荔枝平均值（整合編號 D22001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "風傳媒（引述農業部說法）與無毒農（greenbox.tw）內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "lychee.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "starfruit",
+    "name": "楊桃",
+    "category": "水果",
+    "months": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "characteristics": "切面呈五角星形，果肉清脆多汁、酸甜適中，台灣主要栽培品種有二林、秤錘等。",
+    "selectionTips": [
+      "外觀清潔飽滿，果斂（稜邊）肥厚",
+      "果色金黃、富光澤有透明感",
+      "稜邊保持青綠色澤",
+      "稜邊變黑、皮色偏橙黃代表過熟；皮色過青則偏酸"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 32 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "常溫陰涼處可放 2–3 天，冷藏可延長至 1 星期；切開後盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：楊桃平均值（整合編號 D16001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業知識入口網（引述台南區農業改良場）與聯合報元氣網內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "starfruit.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "sugar-apple",
+    "name": "釋迦",
+    "category": "水果",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "characteristics": "台東為主要產地，果實外觀鱗目狀似佛頭，果肉綿密香甜；市面常見大目釋迦與鳳梨釋迦（雜交種，較耐儲運）兩種。",
+    "selectionTips": [
+      "果型圓整端正，外觀無病蟲害斑或擦傷",
+      "表皮綠中帶黃（過綠代表未熟）",
+      "鱗目（鱗溝）大且分布均勻",
+      "同樣大小選較重者（水分較足），輕壓略軟代表已可食用"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 104 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "未熟果常溫放置催熟，避免冷藏（會停止後熟）；已軟熟者可冷藏保存，儘快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：釋迦（整合編號 D1200101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署相關報導與自由電子報「食譜自由配」內容一致（農糧署原始新聞頁面已下架，經搜尋引擎摘要與獨立媒體報導交叉確認）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "sugar-apple.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "ponkan",
+    "name": "椪柑",
+    "category": "水果",
+    "months": [
+      11,
+      12,
+      1
+    ],
+    "characteristics": "台灣冬季代表柑橘之一，果皮易剝、果肉多汁，早採者偏酸、晚採者偏甜。",
+    "selectionTips": [
+      "果型完整，果皮清潔光滑",
+      "果實有彈性、拿起來有重量感",
+      "蒂柄粗，底部呈放射狀金黃色",
+      "色澤均勻"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 40 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "置於通風陰涼處，適合 15–18°C，個別套袋可維持濕度延長保存；冷藏可放 2–3 星期。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：椪柑（整合編號 D3400101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "ETtoday、自由健康網等獨立媒體報導一致，引述農業部說法"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "ponkan.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "lemon",
+    "name": "檸檬",
+    "category": "水果",
+    "months": [
+      7,
+      8,
+      9
+    ],
+    "characteristics": "台灣檸檬主產於高屏地區，栽培品種為優利卡（Eureka），因氣候濕熱多為綠皮，酸香濃郁，是台式手搖飲與料理常見的提味食材。",
+    "selectionTips": [
+      "表皮油亮、黃綠色果皮",
+      "蒂頭完整翠綠",
+      "果形飽滿",
+      "手感沉重且有彈性（同樣大小較重者較多汁），聞起來香氣較濃者佳"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 33 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "常溫陰涼處可放數天，冷藏可放 2–3 星期；切開後用保鮮膜包好冷藏，盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：檸檬（整合編號 D3800101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業知識入口網（農業部）與食力foodNEXT報導內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "lemon.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "kumquat",
+    "name": "金棗",
+    "category": "水果",
+    "subcategory": "金柑",
+    "months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "characteristics": "又稱金柑，全台約 9 成產自宜蘭，是少數果皮帶甘甜的芸香科作物，可連皮帶籽整顆食用，也常加工成蜜餞、果醬；與外皮偏酸澀、多用於榨汁的「金桔（四季桔）」是不同品項，購買時留意店家標示。",
+    "selectionTips": [
+      "外皮鮮豔金黃有光澤",
+      "果形飽滿（長橢圓或圓形皆常見）",
+      "拿起來有分量感，代表水分較足",
+      "因連皮帶籽整顆食用，建議選擇有機或具產銷履歷標章的來源"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 56 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "冷藏保存，可放 1–2 星期；表皮較薄，避免擠壓碰傷。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：長果金柑（整合編號 D3400301）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署相關報導與宜蘭在地農業資訊內容一致（具體挑選要領原始頁面未能直接讀取，經搜尋引擎摘要交叉確認）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "kumquat.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "pomelo",
+    "name": "文旦",
+    "category": "水果",
+    "months": [
+      8,
+      9
+    ],
+    "characteristics": "台灣中秋節代表水果，果形似不倒翁，果肉粒粒分明、酸甜清爽；剛採收偏酸，經「辭水」（靜置 1–2 週讓表皮水分蒸散）後風味更甜。",
+    "selectionTips": [
+      "果形端正、底部寬廣呈不倒翁狀",
+      "表面光滑、果皮油胞細緻密實",
+      "手感沉重，代表含水量高、果肉紮實",
+      "果皮顏色可判斷熟度：濃綠偏硬酸，黃綠已成熟多汁，淡黃最香甜"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 34 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "整顆置於陰涼通風處辭水 1–2 週後風味更佳；剝皮後未食用完畢，用保鮮盒或保鮮膜密封冷藏。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：文旦（整合編號 D3500101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由健康網（引述農糧署）、聯合報元氣網（引述台南區農業改良場）、教育部科普報導等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "pomelo.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "oriental-melon",
+    "name": "香瓜",
+    "category": "水果",
+    "subcategory": "美濃瓜",
+    "months": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "characteristics": "又稱美濃瓜，是薄皮「東方甜瓜」的俗稱，果皮光滑帶淡黃光澤，果肉淡白綠色、香氣濃郁，與厚皮的哈密瓜、洋香瓜是不同類別。",
+    "selectionTips": [
+      "果形飽滿端正，呈扁圓形",
+      "表皮平滑有光澤，避免深褐或黑色水傷斑痕、蟲孔",
+      "果臍（底部肚臍位置）收整緊實、無裂痕",
+      "輕壓果臍略有彈性、香氣越濃代表越甜"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 37 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "尚未熟軟者置於常溫催熟；熟軟後冷藏保存，可放 3–5 天；切開後用保鮮盒或保鮮膜包覆冷藏。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：美濃瓜（整合編號 D2000201）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由電子報「食譜自由配」與人間福報「蔬福生活」報導內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "oriental-melon.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "hami-melon",
+    "name": "哈密瓜",
+    "category": "水果",
+    "months": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "characteristics": "厚皮甜瓜的一種，表皮布滿網紋，果肉香氣濃郁多汁，與洋香瓜同屬厚皮甜瓜家族，但品種不同。",
+    "selectionTips": [
+      "網紋密實，且網紋延伸至果梗（蒂頭）處",
+      "避免網紋呈現凹陷狀態",
+      "蒂頭翠綠飽滿代表新鮮（蒂頭乾枯程度可判斷熟化階段）",
+      "瓜梗處聞起來有明顯香氣"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 28 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "良好來源"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "常溫放置至香氣明顯、微軟後移入冷藏，可放 3–5 天；切開後用保鮮盒密封冷藏，盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：新疆哈密瓜（整合編號 D2000302）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署相關報導、自由電子報「食譜自由配」、康健雜誌等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "hami-melon.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "loquat",
+    "name": "枇杷",
+    "category": "水果",
+    "months": [
+      2,
+      3,
+      4
+    ],
+    "characteristics": "早春限定水果，果皮薄帶絨毛，果肉柔軟多汁、酸甜適中，也常用來煮枇杷膏潤喉。",
+    "selectionTips": [
+      "果肉飽滿、顏色深者甜度較足",
+      "果皮絨毛（茸毛）與果粉完整未磨損",
+      "風疤（果身紋路）越少品質越好",
+      "果粒大而完整，無傷痕、病蟲害"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 38 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "置於陰涼處可放 4–5 天，避免冷藏，容易變黑影響風味與口感。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：枇杷（整合編號 D2500101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "TVBS健康2.0與食農教育資訊整合平臺（農業部）內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "loquat.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "peach",
+    "name": "水蜜桃",
+    "category": "水果",
+    "months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "characteristics": "台灣夏季高山水果代表，主要產地為拉拉山、梨山等地，果肉柔軟多汁、香氣濃郁；果皮紅不紅跟甜度無關，不要只看顏色判斷。",
+    "selectionTips": [
+      "果實大顆對稱飽滿",
+      "拿起來有重量感",
+      "香氣濃郁",
+      "輕壓略有彈性代表已成熟（果皮紅不紅與甜度無關）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 39 kcal/100g"
+      }
+    ],
+    "storage": "常溫催熟至有香氣、微軟後冷藏，可放 3–5 天；表皮薄嫩，避免擠壓碰傷。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：水蜜桃平均值（整合編號 D28001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由健康網（引述農委會）與無毒農（greenbox.tw）內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "peach.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "plum",
+    "name": "李子",
+    "category": "水果",
+    "months": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "characteristics": "台灣常見品種依果皮果肉顏色分為青皮黃肉、紅皮紅肉、紅皮黃肉等，口感清脆或軟嫩不一，帶自然酸甜。",
+    "selectionTips": [
+      "表面帶白色果粉（新鮮的自然表現，不是髒污）",
+      "果皮光滑無皺紋",
+      "果肉結實、軟硬適中",
+      "想立即吃可選微軟、香氣明顯者；想放幾天再吃可選稍結實者"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 39 kcal/100g"
+      }
+    ],
+    "storage": "常溫放置至軟熟後冷藏，可放 3–5 天。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：李子平均值(紅皮紅肉)（整合編號 D24002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署相關報導與良醫健康網報導內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "plum.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "persimmon",
+    "name": "柿子",
+    "category": "水果",
+    "subcategory": "甜柿",
+    "months": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "characteristics": "台灣常見甜柿品種有富有、次郎等，樹上熟成後即可直接食用，口感脆甜多汁，不需要像澀柿一樣經人工脫澀處理。",
+    "selectionTips": [
+      "色澤鮮明橙紅（顏色越紅通常越甜）",
+      "外型飽滿，避免裂萼、裂果",
+      "拿起來偏重，代表水分糖分較足",
+      "果蒂萼片平整新鮮不枯黑；喜歡脆口選較硬者，喜歡軟一點可放置後熟"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 57 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "常溫放置至喜歡的軟硬度後冷藏，可放 3–5 天；已軟熟者建議儘快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：甜柿平均值（整合編號 D27002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "療日子HealingDaily（引述農糧署、農委會、台北農產運銷公司）與食力foodNEXT報導內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "persimmon.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "mulberry",
+    "name": "桑椹",
+    "category": "水果",
+    "months": [
+      2,
+      3,
+      4
+    ],
+    "characteristics": "果實由多個小果聚合而成，成熟時呈紫黑色，果肉柔軟多汁、酸甜濃郁，不耐保存，是產季限定的季節水果。",
+    "selectionTips": [
+      "顏色越接近紫黑色代表越成熟、越甜",
+      "顆粒飽滿豐厚",
+      "表面乾燥、不出水",
+      "蒂頭翠綠者較新鮮"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 32 kcal/100g"
+      }
+    ],
+    "storage": "不耐久放，建議當天或隔天食用完畢；未食用完者避免碰水，冷藏約可放 2 天，也可清洗瀝乾後分裝冷凍，可延長保存至半年。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：桑葚（整合編號 D1300101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由電子報「食譜自由配」與愛料理生活誌報導內容一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "mulberry.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "jujube",
+    "name": "蜜棗",
+    "category": "水果",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "characteristics": "又稱印度棗、青棗，果肉清脆多汁、口感似蘋果，是台灣冬季常見的水果。",
+    "selectionTips": [
+      "果皮完整有光澤",
+      "拿起來有重量感",
+      "果蒂周圍平整光滑無皺褶（凹陷越深品質越好，突起者較差）",
+      "依果皮顏色挑選：偏綠較爽脆，偏黃甜度較高"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 43 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "以塑膠袋包裝後冷藏，可放約 2 星期。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：蜜棗平均值(大)（整合編號 D31001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網、hk01健康資訊、直接跟農夫買等來源一致，引述農糧署說法"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "jujube.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "sugarcane",
+    "name": "甘蔗",
+    "category": "水果",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "characteristics": "台灣傳統市場常見的現榨或切段甘蔗，莖身多汁清甜，是冬季常見的解渴零食；食藥署營養資料庫查無生鮮甘蔗原料樣本（僅有加工蔗汁樣品），營養欄位暫無法查證。",
+    "selectionTips": [
+      "莖粗而直、沒有蟲害",
+      "外皮色澤光滑亮麗、表皮完整",
+      "節間較長",
+      "拿起來沉甸甸、水分充足；內部應為雪白色，避免變紅、發霉、有斑點或散發酸味酒味"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "推估中等偏高（醣分含量高，未經官方資料庫查證）"
+      }
+    ],
+    "storage": "整支置於陰涼通風處可放數天；已削皮切段者用保鮮盒或保鮮袋冷藏，盡快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "unverified",
+        "source": "食藥署資料庫查無生鮮甘蔗樣本（僅有紅甘蔗汁等加工樣品），不採用網路查詢的營養數據替代"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "愛料理生活誌（引述農業部、臺北農產運銷公司）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "sugarcane.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "apple",
+    "name": "蘋果",
+    "category": "水果",
+    "seasonNote": "台灣市售蘋果多為日本、美國、紐西蘭、智利等地進口，全年皆可購得；國產蘋果（如梨山蘋果）產量較少，產季約在 10–12 月。",
+    "characteristics": "台灣蘋果市場以進口為主，本土栽培（如梨山地區）產量有限；口感依品種、產地而異，是全年常見、接受度高的水果。",
+    "selectionTips": [
+      "蒂頭粗壯完整、不乾枯（細弱枯萎代表已放置較久）",
+      "蒂頭深陷處的蘋果通常較甜",
+      "底部顏色偏黃或乳白，代表成熟度較高、果肉較細緻",
+      "果皮摸起來稍粗糙、帶自然斑點者較好吃；過度光亮平滑可能經過打蠟，建議削皮食用"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 51 kcal/100g"
+      }
+    ],
+    "storage": "冷藏保存，可放 2–3 星期；與其他蔬果分開放置，避免蘋果釋放的乙烯加速其他蔬果熟化。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：蘋果平均值(混色)（整合編號 D32004）；台灣市售蘋果多為進口，此為資料庫綜合各色蘋果的平均值"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "TVBS新聞網（蔬果達人）與大紀元報導內容一致；因蘋果多為進口，未找到台灣農業機關的專屬挑選指引"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "apple.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "cherry-tomato",
+    "name": "小番茄",
+    "category": "水果",
+    "subcategory": "聖女番茄",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "characteristics": "常見品種有聖女、玉女、金瑩等，果皮較厚、酸甜多汁，台灣多當水果直接鮮食，與烹煮用的大番茄（歸類於蔬菜）用途不同。",
+    "selectionTips": [
+      "外形渾圓飽滿",
+      "果皮光滑、轉色均勻亮麗",
+      "無裂痕及碰撞痕跡",
+      "果實底部果痕處無褐黑斑或發霉（萼片是否保留與新鮮度無直接關係）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 33 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "良好來源"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "裝袋密封後冷藏（約 7°C），可放 2 星期以上；食用前才清洗，避免泡水導致裂果。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：小番茄平均值(紅色系)（整合編號 E74004）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "臺南區農業改良場官方資訊，經TVBS健康2.0等媒體報導引述一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "cherry-tomato.jpg",
+    "imagePlaceholder": true
   }
 ]

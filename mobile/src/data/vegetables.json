@@ -1637,5 +1637,479 @@
     },
     "image": "corn.jpg",
     "imagePlaceholder": true
+  },
+  {
+    "id": "celery",
+    "name": "芹菜",
+    "category": "蔬菜",
+    "months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "characteristics": "枝梗細長翠綠，氣味清香，本地種芹菜（葉芹）常用於熱炒提味，西洋芹菜莖較粗大，多用於涼拌或打汁。",
+    "selectionTips": [
+      "枝梗挺直、色澤青翠，葉不枯萎變黃",
+      "葉片不枯焦、無褐色斑點",
+      "葉梗（莖）肥胖粗大、質地細嫩",
+      "未抽苔（未開花）者較嫩"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 15 kcal/100g"
+      }
+    ],
+    "storage": "裝袋後直接冷藏，可放 5–7 天；避免碰水，食用前再清洗。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：芹菜平均值（整合編號 E37002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署官網「選購蔬菜要領」（www.afa.gov.tw）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "celery.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "bell-pepper",
+    "name": "青椒",
+    "category": "蔬菜",
+    "months": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "characteristics": "青椒是甜椒尚未成熟的青綠果實，帶淡淡辣味；完全成熟轉紅、黃、橙色後即為一般所稱的「甜椒／彩椒」，風味轉為清甜。",
+    "selectionTips": [
+      "蒂頭和果柄翠綠，果皮光澤亮麗",
+      "果形端正飽滿、果肉厚實",
+      "果面平滑、表面有彈性",
+      "避免顏色偏黃發霉，或表面出現皺紋（代表已脫水）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 29 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "裝袋冷藏，可放 7–10 天；避免與易產生乙烯的水果（如蘋果、香蕉）放在一起，以免加速軟化。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：甜椒平均值(青皮)（整合編號 E75001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "台南區農業改良場（經食力foodNEXT、TVBS健康2.0等獨立媒體報導一致）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "bell-pepper.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "okra",
+    "name": "秋葵",
+    "category": "蔬菜",
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "characteristics": "外形五角錐狀，表皮帶細絨毛，切開後有黏液，口感清脆微黏，是夏季常見的家常蔬菜。",
+    "selectionTips": [
+      "長度約 5–10 公分（約大拇指長）較嫩，過長容易纖維化",
+      "表皮絨毛明顯代表新鮮，絨毛稀疏代表採收已久",
+      "形狀飽滿直挺，輕捏有韌度、不軟爛",
+      "避免顏色發暗發乾，或有黑色刮痕、蟲蛀痕跡"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 36 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "良好來源"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "裝袋冷藏，平放勿擠壓（容易擦傷），可放 3–5 天。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：黃秋葵（整合編號 E7600101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "自由電子報「食譜自由配」、農業知識入口網（kmweb.moa.gov.tw）等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "okra.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "yam",
+    "name": "山藥",
+    "category": "蔬菜",
+    "months": [
+      10,
+      11,
+      12,
+      1
+    ],
+    "characteristics": "地下塊莖類食材，削皮時會產生黏液，口感依品種而異，可清脆生食也可燉煮綿密，是台灣家常料理常見的食材。",
+    "selectionTips": [
+      "外觀完整光滑，無病蟲害或腐爛",
+      "鬚根越少越好",
+      "大小相同者選較重的（水分較足）",
+      "切口處色澤鮮豔（避免纖維化的山藥）"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 85 kcal/100g"
+      }
+    ],
+    "storage": "整支未切開者放陰涼通風處，避免陽光直射，可保存約 3 個月；已切開或削皮者用保鮮袋密封冷凍保存。處理時建議戴手套或用鹽水洗手，避免外皮植物鹼刺激皮膚；削皮切割避免使用金屬刀具，減少氧化變黑。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：山藥平均值（整合編號 B01002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農業知識入口網（kmweb.moa.gov.tw）、桃園區農業改良場「農產知識-山藥篇」等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "yam.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "bamboo-shoot",
+    "name": "竹筍",
+    "category": "蔬菜",
+    "subcategory": "綠竹筍",
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "characteristics": "台灣傳統市場常見的是綠竹筍，筍身彎曲呈牛角狀，肉質細嫩清甜，適合涼拌、煮湯或清炒。",
+    "selectionTips": [
+      "筍殼光滑金黃色",
+      "筍身略彎呈牛角狀",
+      "切面潔白，無褐化或明顯纖維",
+      "拿起來有沉重感，代表水分充足"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 25 kcal/100g"
+      }
+    ],
+    "storage": "帶殼冷藏可放 2–3 天，久放會纖維化、產生苦味；也可以帶殼水煮後放涼再冷藏，能延長保存時間並降低苦味。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：綠竹筍（整合編號 E1500101）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署官網「選購蔬菜要領」（www.afa.gov.tw）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "bamboo-shoot.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "asparagus",
+    "name": "蘆筍",
+    "category": "蔬菜",
+    "months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "characteristics": "台灣以綠蘆筍較常見，莖身翠綠、口感清脆微甜，適合清炒或汆燙涼拌。",
+    "selectionTips": [
+      "莖皮綠色，筍尖鱗片緊密不展開",
+      "筍身粗大細嫩",
+      "切口處濕潤不乾癟",
+      "避免莖身軟爛或有明顯纖維感"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 22 kcal/100g"
+      }
+    ],
+    "storage": "用濕紙巾包裹根部後直立冷藏，或裝袋平放冷藏，可放 3–5 天；建議儘快食用以保持鮮甜口感。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：綠蘆筍平均值（整合編號 E17002）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署官網「選購蔬菜要領」（www.afa.gov.tw）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "asparagus.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "bean-sprouts",
+    "name": "豆芽菜",
+    "category": "蔬菜",
+    "subcategory": "綠豆芽",
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "characteristics": "傳統市場常見的豆芽菜多指綠豆芽（也有黃豆芽），全年可栽培供應，口感清脆爽口，是台式炒麵、炒米粉常見的配菜。",
+    "selectionTips": [
+      "全株新鮮、莖粗大、幼嫩質脆",
+      "葉片（芽瓣）肥厚，不枯萎不老化",
+      "避免發黑、出水或有異味",
+      "豆芽越白不代表越好，過白需留意是否經漂白處理"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 24 kcal/100g"
+      }
+    ],
+    "storage": "裝袋冷藏，建議 1–2 天內食用完畢，豆芽菜不耐久放，容易出水發黑。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：綠豆芽（整合編號 E7700701）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署官網「選購蔬菜要領」（www.afa.gov.tw）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "bean-sprouts.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "mustard-greens",
+    "name": "芥菜",
+    "category": "蔬菜",
+    "months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "characteristics": "葉片肥厚、帶特殊辛香與微苦味，是台灣年菜「長年菜」的常見食材，也常用來醃製鹹菜、酸菜。",
+    "selectionTips": [
+      "葉片完整、肥厚、鮮嫩、飽滿",
+      "未抽苔開花者較嫩",
+      "少病蟲斑點",
+      "避免葉片萎軟發黃"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 19 kcal/100g"
+      },
+      {
+        "label": "維生素C",
+        "value": "良好來源"
+      },
+      {
+        "label": "維生素A",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "裝袋冷藏，可放 3–5 天；久放苦味會加重，建議儘快食用。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：芥菜平均值（整合編號 E38004）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署官網「選購蔬菜要領」（www.afa.gov.tw）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "mustard-greens.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "shiitake-mushroom",
+    "name": "香菇",
+    "category": "蔬菜",
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "characteristics": "菌傘呈褐色傘狀，氣味香醇，是台菜常用的提味食材；生長於太空包栽培環境，全年皆有供應，嚴格來說屬於菌菇類而非植物性蔬菜，因傳統市場慣例與蔬菜一起販售，故收錄於此分類。",
+    "selectionTips": [
+      "菇傘緊密，未完全展開",
+      "無水傷或損傷",
+      "肉質肥厚細嫩",
+      "菇柄結實不軟爛，聞起來有自然菇香"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 39 kcal/100g"
+      },
+      {
+        "label": "膳食纖維",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "用紙袋或透氣袋裝好冷藏，可放 3–5 天；避免用塑膠袋密封，容易悶出水氣加速腐壞。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：香菇平均值（整合編號 G08001）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "農糧署官網「選購蔬菜要領」（www.afa.gov.tw）"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "shiitake-mushroom.jpg",
+    "imagePlaceholder": true
+  },
+  {
+    "id": "okinawan-spinach",
+    "name": "紅鳳菜",
+    "category": "蔬菜",
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "characteristics": "葉片正面墨綠、背面紫紅，是台灣常見的野菜／家常炒菜食材，口感略帶黏滑，常用薑絲快炒去腥。",
+    "selectionTips": [
+      "葉片完整鮮嫩，無枯黃萎爛或黑色斑點",
+      "葉片綠色與紫色對比明顯",
+      "用手折梗容易折斷代表新鮮（纖維化的梗代表已老化）",
+      "避免葉面出現水傷或腐爛"
+    ],
+    "nutrition": [
+      {
+        "label": "熱量",
+        "value": "約 22 kcal/100g"
+      },
+      {
+        "label": "維生素A",
+        "value": "良好來源"
+      },
+      {
+        "label": "鐵",
+        "value": "良好來源"
+      }
+    ],
+    "storage": "裝袋冷藏，可放 2–3 天；不耐久放，建議儘快食用完畢。",
+    "verification": {
+      "nutrition": {
+        "level": "official",
+        "source": "衛福部食藥署「台灣食品成分資料庫」（data.gov.tw/dataset/8543）樣品：紅鳳菜（整合編號 E3400201）"
+      },
+      "selectionTips": {
+        "level": "secondary",
+        "source": "聯合報元氣網、康健雜誌（引述農業部「農業兒童網」資訊）等來源一致"
+      },
+      "months": {
+        "level": "unverified"
+      }
+    },
+    "image": "okinawan-spinach.jpg",
+    "imagePlaceholder": true
   }
 ]

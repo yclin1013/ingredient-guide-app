@@ -11,6 +11,7 @@ export const INGREDIENT_PHOTOS: Record<string, ReturnType<typeof require>> = {
   'bok-choy': require('../../assets/ingredient-photos/bok-choy.jpg'),
   'spinach': require('../../assets/ingredient-photos/spinach.jpg'),
   'chinese-chives': require('../../assets/ingredient-photos/chinese-chives.jpg'),
+  'garland-chrysanthemum': require('../../assets/ingredient-photos/garland-chrysanthemum.jpg'),
   'loofah': require('../../assets/ingredient-photos/loofah.jpg'),
   'cucumber': require('../../assets/ingredient-photos/cucumber.jpg'),
   'eggplant': require('../../assets/ingredient-photos/eggplant.jpg'),

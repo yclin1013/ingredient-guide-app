@@ -1666,6 +1666,20 @@
       }
     ],
     "storage": "裝袋後直接冷藏，可放 5–7 天；避免碰水，食用前再清洗。",
+    "spoilageSigns": [
+      {
+        "sign": "葉片軟化但未黃化、未腐爛（單純失水所致）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "葉片出現黃化或腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -1677,6 +1691,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網問答頁面「葉菜類冷藏存放效期」，臺南區農業改良場官方回覆（2023-03-02）：「葉菜有些軟掉只是失水的表現，若葉菜未黃化、腐爛通常是沒有食用疑慮的」；回覆是針對葉菜類（非單一品項）的通用判斷原則，芹菜屬葉菜類，故適用"
       }
     },
     "image": "celery.jpg",
@@ -1989,6 +2007,20 @@
       }
     ],
     "storage": "裝袋冷藏，可放 3–5 天；久放苦味會加重，建議儘快食用。",
+    "spoilageSigns": [
+      {
+        "sign": "葉片軟化但未黃化、未腐爛（單純失水所致）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "葉片出現黃化或腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -2000,6 +2032,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網問答頁面「葉菜類冷藏存放效期」，臺南區農業改良場官方回覆（2023-03-02）：「葉菜有些軟掉只是失水的表現，若葉菜未黃化、腐爛通常是沒有食用疑慮的」；回覆是針對葉菜類（非單一品項）的通用判斷原則，芥菜屬葉菜類，故適用"
       }
     },
     "image": "mustard-greens.jpg",
@@ -2041,6 +2077,20 @@
       }
     ],
     "storage": "用紙袋或透氣袋裝好冷藏，可放 3–5 天；避免用塑膠袋密封，容易悶出水氣加速腐壞。",
+    "spoilageSigns": [
+      {
+        "sign": "冷藏數日後菇體出現褐變、菌褶因氧化而變褐（自然老化現象）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54525",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "保存環境濕度過高時，菇體表面長出白色菌絲狀物",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54525",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -2052,6 +2102,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網「菇類保鮮技術」（農業試驗所植物病理組呂昀陞、陳美杏、李瑋崧撰文，2016-07-14）：「菌褶因氧化開始變褐」，「含有高多酚氧化酵素之菇種，其菇體極易變色、老化及腐爛」，濕度過高時「很容易在菇體表面長出...菌絲」；未查到明確食安風險（discard等級）的官方描述，故本欄位皆列quality-loss"
       }
     },
     "image": "shiitake-mushroom.jpg",
@@ -2097,6 +2151,20 @@
       }
     ],
     "storage": "裝袋冷藏，可放 2–3 天；不耐久放，建議儘快食用完畢。",
+    "spoilageSigns": [
+      {
+        "sign": "葉片軟化但未黃化、未腐爛（單純失水所致）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "葉片出現黃化或腐爛",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=14470",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -2108,6 +2176,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網問答頁面「葉菜類冷藏存放效期」，臺南區農業改良場官方回覆（2023-03-02）：「葉菜有些軟掉只是失水的表現，若葉菜未黃化、腐爛通常是沒有食用疑慮的」；回覆是針對葉菜類（非單一品項）的通用判斷原則，紅鳳菜屬葉菜類，故適用"
       }
     },
     "image": "okinawan-spinach.jpg",

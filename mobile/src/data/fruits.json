@@ -183,6 +183,15 @@
       }
     ],
     "storage": "以保鮮膜包覆整支香蕉，放冰箱蔬果層可保持約 1 週果皮顏色與風味不變。",
+    "spoilageSigns": [
+      {
+        "sign": "香蕉皮完全變黑，且散發明顯酸味，用手按壓果肉呈軟爛狀",
+        "verdict": "discard",
+        "source_url": "https://health.ltn.com.tw/article/paper/1107050",
+        "source_date": "2026-08-20"
+      }
+    ],
+    "easily_confused_with": "果皮出現芝麻狀黑斑（梅花點）是熟成到最佳風味的正常現象，不是變質，此時營養價值反而較高；要留意的是「果皮完全變黑＋明顯酸味＋按壓軟爛」才是不適合食用的徵兆，兩者外觀階段容易混淆。",
     "verification": {
       "nutrition": {
         "level": "official",
@@ -194,6 +203,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "自由健康網「謠言終結站」報導，明確引述農委會（現農業部）農糧署作物生產組科長陳立儀原話：「若已出現明顯酸味，或是香蕉皮全變黑，甚至手壓很軟時，就不適合吃」"
       }
     },
     "image": "banana.jpg",
@@ -235,6 +248,14 @@
       }
     ],
     "storage": "未熟者可常溫放置催熟；熟果建議冷藏，約可放 3–5 天。",
+    "spoilageSigns": [
+      {
+        "sign": "木瓜表面或蒂頭出現發霉現象",
+        "verdict": "discard",
+        "source_url": "https://www.tydares.gov.tw/ws.php?id=10883",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -246,6 +267,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業部桃園區農業改良場官網資訊圖卡「一圖看懂～木瓜保存有訣竅」：「木瓜表面或蒂頭發霉，菌絲可能已深入內部，應整顆丟棄」"
       }
     },
     "image": "papaya.jpg",
@@ -421,6 +446,14 @@
       }
     ],
     "storage": "冷藏可放 1 週左右；建議不清洗直接冷藏，食用前再沖洗。",
+    "spoilageSigns": [
+      {
+        "sign": "果梗（果柄）部位長出黑色或白色絲狀物，果粒本身仍完好",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=46232",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -431,6 +464,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網「請問葡萄這樣是發黴嗎？」問答頁面，台中區農業改良場官方回覆：「葡萄果梗上出現的黑色或白色絲狀物，確實有可能是真菌纏據所致，但這類微生物大部分屬於腐生性質，對於植物與人體本身多不具危害或毒害能力」，建議清水沖洗刷除後食用；未查到果粒本身腐爛（discard等級）的官方或具名機關來源，故本欄位只收錄此則"
       }
     },
     "image": "grape.jpg",
@@ -503,6 +540,26 @@
       }
     ],
     "storage": "冷藏可放 1–2 週；建議整顆保存，切開後盡快食用完畢。",
+    "spoilageSigns": [
+      {
+        "sign": "鱗片黃化、變薄、轉褐色（常溫存放約 3 天後開始出現）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54933",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "果實外觀出現皺縮感，鱗片持續萎凋褐化（常溫存放約 7–10 天後）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54933",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "果皮出現炭疽病、褐斑病灶，口感明顯不佳（常溫存放約 10 天後）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54933",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -514,6 +571,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網「紅龍果的採收後貯藏要點」（作者：劉碧鵑、徐敏記、吳俊達，2018-03-09）：常溫貯藏下 3 天後鱗片黃化變薄變褐，7–10 天後皺縮萎凋褐化但風味尚可，10 天後出現炭疽病、褐斑病灶、口感不佳；來源未明確標示食安風險等級（未使用discard判斷用字），故三則皆列quality-loss"
       }
     },
     "image": "dragon-fruit.jpg",
@@ -555,6 +616,20 @@
       }
     ],
     "storage": "常溫可放 1 週左右；表皮開始皺縮代表更加成熟香甜，冷藏可延長保存。",
+    "spoilageSigns": [
+      {
+        "sign": "果實出現失水萎縮、表皮明顯皺縮凹陷",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=40190",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "果實表面長出黴菌，或搖晃可聞到果汁發酵、腐敗的異味",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=40190",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -566,6 +641,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網百香果主題館「百香果貯藏」（農業部臺中區農業改良場維護，107年11月22日發布）：「（常溫貯藏）易發生失水萎縮、黴菌產生及果汁發酵、腐爛的情形」；另有6℃以下寒害會造成果皮軟化變色，但屬低溫貯藏不當所致，非一般家庭保存常見情況，故未納入"
       }
     },
     "image": "passion-fruit.jpg",
@@ -601,6 +680,14 @@
       }
     ],
     "storage": "不耐久放，建議 2–3 天內食用完畢；先剔除受傷軟爛果實，冷藏前不要先清洗。",
+    "spoilageSigns": [
+      {
+        "sign": "果實表面長出白色黴菌斑點；即使整盒中只有一、兩顆出現，黴菌孢子也可能已擴散至其他果實",
+        "verdict": "discard",
+        "source_url": "https://www.storm.mg/lifestyle/11154903",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -612,6 +699,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "風傳媒報導，明確引述食藥署2026年公布資料：「莓果一旦出現發霉情形，即使肉眼看起來只有局部變質，黴菌孢子也可能已經擴散，因此建議整盒丟棄」"
       }
     },
     "image": "strawberry.jpg",
@@ -640,6 +731,14 @@
       }
     ],
     "storage": "冷藏保存，可放約 1 星期；單顆套袋包裝可延緩失水，維持清脆口感。",
+    "spoilageSigns": [
+      {
+        "sign": "表皮出現撞傷、蟲孔，或用手輕觸有明顯軟爛、腐敗情形",
+        "verdict": "discard",
+        "source_url": "https://www.storm.mg/lifestyle/11152740",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -651,6 +750,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "secondary",
+        "source": "風傳媒報導，明確引述農糧署北區分署說法：放進冰箱前應逐顆檢查，一旦發現表皮有撞傷、蟲孔、明顯軟爛或腐敗情形，應先挑出來，不要和完好的水梨放在同一袋（文章以轉述而非逐字引號呈現，但明確標示為農糧署北區分署提供資訊）"
       }
     },
     "image": "asian-pear.jpg",
@@ -683,6 +786,14 @@
       }
     ],
     "storage": "常溫陰涼通風處可放 1 天；冷藏可先在外殼噴少許水分、用餐巾紙包裹後裝袋冷藏，延長保鮮。",
+    "spoilageSigns": [
+      {
+        "sign": "常溫保濕環境下放置 3–5 天後，果皮開始失水、轉為褐色，風味與口感明顯劣化",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=44993",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -694,6 +805,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網龍眼主題館「選購與保鮮」（農業部農業試驗所維護）：「龍眼於常溫保溼狀況下僅可放置3～5天，果皮失水褐化，失去商品與食用價值」"
       }
     },
     "image": "longan.jpg",
@@ -726,6 +841,20 @@
       }
     ],
     "storage": "不要直接放進冰箱冷藏，容易變黑；建議去除葉片、用噴濕的報紙加塑膠袋包覆冷藏，可放 3–5 天，也可去殼去籽冷凍保存約 1 個月。",
+    "spoilageSigns": [
+      {
+        "sign": "果皮乾燥、變黑褐化（果實採收後表皮快速失水所致）",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=24136",
+        "source_date": "2026-08-20"
+      },
+      {
+        "sign": "果實發霉、腐敗（保存溫度偏高、約 7–10℃ 時較容易發生）",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=24136",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -737,6 +866,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網荔枝主題館「簡易貯藏」（農業部農業試驗所維護）：果皮容易乾褐及黴腐；7–10℃時「果實容易黴腐」，0–2℃會導致寒害而褐化劣變；適當保存（4–5℃、保鮮膜包裝、90–95%濕度）可達2–3週貯藏壽命"
       }
     },
     "image": "lychee.jpg",
@@ -903,6 +1036,14 @@
       }
     ],
     "storage": "常溫陰涼處可放數天，冷藏可放 2–3 星期；切開後用保鮮膜包好冷藏，盡快食用完畢。",
+    "spoilageSigns": [
+      {
+        "sign": "冷藏保存約 3 星期後，表皮逐漸轉黃、風味明顯改變",
+        "verdict": "quality-loss",
+        "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=attention&id=71488",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -914,6 +1055,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網「夏日炎炎，檸檬消暑正當時－檸檬鮮果的挑選與保存」（高雄區農業改良場楊舒涵助理研究員撰文，2022-09-16）：「檸檬放置於冷藏庫約3星期後，表皮會逐漸轉黃，風味也會改變」；未查到明確食安風險（discard等級）的官方描述，故本欄位只收錄此則"
       }
     },
     "image": "lemon.jpg",
@@ -1131,6 +1276,14 @@
       }
     ],
     "storage": "置於陰涼處可放 4–5 天，避免冷藏，容易變黑影響風味與口感。",
+    "spoilageSigns": [
+      {
+        "sign": "剝開後果肉出現大量黏液，或散發酸敗味",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=9641",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -1142,6 +1295,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網問答頁面，台中區農業改良場官方回覆：優質枇杷「果肉未變質」，剝皮時沾染果汁略有黏膩感屬正常，但「若無大量黏液及酸敗味等異狀應可食用」，意即出現大量黏液或酸敗味則不建議食用"
       }
     },
     "image": "loquat.jpg",
@@ -1467,6 +1624,14 @@
       }
     ],
     "storage": "裝袋密封後冷藏（約 7°C），可放 2 星期以上；食用前才清洗，避免泡水導致裂果。",
+    "spoilageSigns": [
+      {
+        "sign": "果實蒂頭出現發黑現象（儲藏過程中受感染所致）",
+        "verdict": "discard",
+        "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=19075",
+        "source_date": "2026-08-20"
+      }
+    ],
     "verification": {
       "nutrition": {
         "level": "official",
@@ -1478,6 +1643,10 @@
       },
       "months": {
         "level": "unverified"
+      },
+      "spoilageSigns": {
+        "level": "official",
+        "source": "農業知識入口網問答頁面，臺南區農業改良場官方回覆（2025-06-23）：「番茄果實蒂頭發黑是儲藏發生感染所致，果實雖然可吃，但風味不佳，不建議食用」"
       }
     },
     "image": "cherry-tomato.jpg",

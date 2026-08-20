@@ -42,12 +42,14 @@ export default function ItemDetail() {
   const [variantIdx, setVariantIdx] = useState(0);
   const insets = useSafeAreaInsets();
 
+  const goBack = () => (router.canGoBack() ? router.back() : router.replace('/'));
+
   const item = ITEMS.find((i) => i.id === id);
   if (!item) {
     return (
       <SafeAreaView style={styles.safe} edges={['top']}>
         <View style={styles.content}>
-          <Pressable onPress={() => router.back()} style={styles.backButton}>
+          <Pressable onPress={goBack} style={styles.backButton}>
             <ChevronLeft size={16} color={MUTED} />
             <Text style={styles.backText}>返回</Text>
           </Pressable>
@@ -70,7 +72,7 @@ export default function ItemDetail() {
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
       <Pressable
-        onPress={() => router.back()}
+        onPress={goBack}
         style={[styles.backButtonFixed, { top: insets.top + 12 }]}
       >
         <ChevronLeft size={16} color={MUTED} />

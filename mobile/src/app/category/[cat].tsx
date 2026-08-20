@@ -24,11 +24,13 @@ export default function CategoryScreen() {
     router.push(`/item/${id}`);
   }
 
+  const goBack = () => (router.canGoBack() ? router.back() : router.replace('/'));
+
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
       {!query.trim() && (
         <Pressable
-          onPress={() => router.back()}
+          onPress={goBack}
           style={[styles.backButtonFixed, { top: insets.top + 12 }]}
         >
           <ChevronLeft size={16} color={MUTED} />

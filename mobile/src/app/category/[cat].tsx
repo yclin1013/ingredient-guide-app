@@ -1,6 +1,6 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ChevronLeft } from 'lucide-react-native';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import CategoryIcon from '../../components/CategoryIcon';
@@ -14,7 +14,15 @@ export default function CategoryScreen() {
   const router = useRouter();
   const { cat } = useLocalSearchParams<{ cat: string }>();
   const [query, setQuery] = useState('');
+  const [hydrated, setHydrated] = useState(false);
   const insets = useSafeAreaInsets();
+
+  // 網頁版的 /category/[cat] 是共用的靜態外殼，建置當下還不知道實際的 cat，
+  // 首次繪製時會先落到預設的「蔬菜」；要等 JS 接手（hydrate）、拿到網址列真正的 cat 後才是正確分類。
+  // 用這個旗標避免在那段空窗期把錯的分類內容畫出來。
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   const category = (cat && cat in CATS ? cat : '蔬菜') as Category;
   const items = ITEMS.filter((i) => i.category === category);
@@ -25,6 +33,10 @@ export default function CategoryScreen() {
   }
 
   const goBack = () => (router.canGoBack() ? router.back() : router.replace('/'));
+
+  if (!hydrated) {
+    return <SafeAreaView style={styles.safe} edges={['top']} />;
+  }
 
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>

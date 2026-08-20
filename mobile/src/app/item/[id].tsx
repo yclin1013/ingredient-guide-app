@@ -1,6 +1,6 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ChevronLeft } from 'lucide-react-native';
-import { useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import CategoryIcon from '../../components/CategoryIcon';
@@ -40,12 +40,23 @@ export default function ItemDetail() {
   const router = useRouter();
   const { id } = useLocalSearchParams<{ id: string }>();
   const [variantIdx, setVariantIdx] = useState(0);
+  const [hydrated, setHydrated] = useState(false);
   const insets = useSafeAreaInsets();
+
+  // 網頁版的 /item/[id] 是共用的靜態外殼，建置當下還不知道實際的 id，
+  // 首次繪製時一定找不到對應食材；要等 JS 接手（hydrate）、拿到網址列真正的 id 後才能判斷。
+  // 用這個旗標避免在那段空窗期把「找不到」誤植入畫面，讓使用者以為真的沒有資料。
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   const goBack = () => (router.canGoBack() ? router.back() : router.replace('/'));
 
   const item = ITEMS.find((i) => i.id === id);
   if (!item) {
+    if (!hydrated) {
+      return <SafeAreaView style={styles.safe} edges={['top']} />;
+    }
     return (
       <SafeAreaView style={styles.safe} edges={['top']}>
         <View style={styles.content}>
